@@ -1,0 +1,8 @@
+OpenField_Util_盾_1_ramune0106:
+ Type: item_display 
+ DisplayOptions:
+   Item: shield
+   BlockLight: 15
+   SkyLight: 15
+   Scale: 1.2,1.2,1.2
+ Skills:

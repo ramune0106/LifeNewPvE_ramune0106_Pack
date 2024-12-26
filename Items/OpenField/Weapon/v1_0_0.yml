@@ -1,0 +1,30 @@
+OpenField_Weapon_衝撃波_ramune0106:
+  Id: Stick
+  Display: "&2衝撃波"
+  Lore: []
+  Model: 1000
+  Options: 
+    ItemVersion: 1
+  Group: 'Sub-Weapon'
+  Skills:
+  - skill{s=OpenField_Weapon_衝撃波_ramune0106_Skills} @self ~onUse
+OpenField_Weapon_旋風のタクト_ramune0106:
+  Id: Stick
+  Display:"&a旋風のタクト"
+  Lore: [自身の向いている方向に小さな衝撃波を起こす。]
+  [衝撃波はヒットした対象を吹き飛ばす]
+  Model: 1000
+  Options: 
+    ItemVersion: 1
+  Group: 'Sub-Weapon'
+  Skills:
+  - skill{s=OpenField_Weapon_旋風のタクト_ramune0106_Skills} @tl ~
+OpenField_Weapon_ガーディアン_ramune0106:
+  Id: Shield
+  Display: &8ガーディアン
+  Lore: [自身の周囲に身を守る盾を展開する。]
+  Options:
+    ItemVersion: 1
+  Group:  'Sub-Weapon'
+  Skills:
+  - skill{s=OpenField_Weapon_ガーディアン_ramune0106_Skills}

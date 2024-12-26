@@ -1,0 +1,15 @@
+OpenField_Weapon_衝撃波_ramune0106_Skills:
+  skills:
+OpenField_Weapon_旋風のタクト_ramune0106_Skills:
+  Skills:
+  - Cooldown : 1.5
+  - shoot{t=wind_charge}
+OpenField_Weapon_ガーディアン_ramune0106_Skills:
+  Skills:
+  - Cooldown : 20
+  - orbital{oH=
+   - throw{v=2}
+   - sound{s=block.anvil.place;p=1.2}@caster 
+   ;
+   v=1;p=5;r=2
+  }

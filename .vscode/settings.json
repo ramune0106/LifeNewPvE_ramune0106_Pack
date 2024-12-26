@@ -1,0 +1,12 @@
+{
+    "MythicScribe.alwaysEnabled": true,
+    "MythicScribe.attributeAliasUsedInCompletions": "shorter",
+    "MythicScribe.datasetSource": "GitHub",
+    "MythicScribe.regexForItemFile": "[\\\\\\/][Ii]tems[\\\\\\/]",
+    "MythicScribe.regexForMetaskillFile": "[\\\\\\/][Ss]kills[\\\\\\/]",
+    "MythicScribe.regexForMobFile": "[\\\\\\/][Mm]obs[\\\\\\/]",
+    "MythicScribe.enableShortcuts": true,
+    "MythicScribe.enableMythicScriptSyntax": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.acceptSuggestionOnEnter": "off",
+}
