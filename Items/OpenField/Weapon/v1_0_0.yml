@@ -18,7 +18,7 @@ OpenField_Weapon_旋風のタクト_ramune0106:
     ItemVersion: 1
   Group: 'Sub-Weapon'
   Skills:
-  - skill{s=OpenField_Weapon_旋風のタクト_ramune0106_Skills} @tl ~
+  - skill{s=OpenField_Weapon_旋風のタクト_ramune0106_Skills} @tl ~onSwing
 OpenField_Weapon_ガーディアン_ramune0106:
   Id: Shield
   Display: &8ガーディアン
