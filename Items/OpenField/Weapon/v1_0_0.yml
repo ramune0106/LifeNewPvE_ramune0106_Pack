@@ -11,8 +11,8 @@ OpenField_Weapon_衝撃波_ramune0106:
 OpenField_Weapon_旋風のタクト_ramune0106:
   Id: Stick
   Display:"&a旋風のタクト"
-  Lore: [自身の向いている方向に小さな衝撃波を起こす。]
-  [衝撃波はヒットした対象を吹き飛ばす]
+  Lore: 
+  - "自身の向いている方向に小さな衝撃波を起こす。"
   Model: 1000
   Options: 
     ItemVersion: 1
@@ -22,7 +22,8 @@ OpenField_Weapon_旋風のタクト_ramune0106:
 OpenField_Weapon_ガーディアン_ramune0106:
   Id: Shield
   Display: "&8ガーディアン"
-  Lore: [自身の周囲に身を守る盾を展開する。]
+  Lore: 
+  - "自身の周囲に身を守る盾を展開する。"
   Options:
     ItemVersion: 1
   Group:  'Sub-Weapon'
