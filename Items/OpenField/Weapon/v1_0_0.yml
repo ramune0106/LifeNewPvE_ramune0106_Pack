@@ -21,10 +21,10 @@ OpenField_Weapon_旋風のタクト_ramune0106:
   - skill{s=OpenField_Weapon_旋風のタクト_ramune0106_Skills} @tl ~onSwing
 OpenField_Weapon_ガーディアン_ramune0106:
   Id: Shield
-  Display: &8ガーディアン
+  Display: "&8ガーディアン"
   Lore: [自身の周囲に身を守る盾を展開する。]
   Options:
     ItemVersion: 1
   Group:  'Sub-Weapon'
   Skills:
-  - skill{s=OpenField_Weapon_ガーディアン_ramune0106_Skills}
+  - skill{s=OpenField_Weapon_ガーディアン_ramune0106_Skills} @self ~onSwing
