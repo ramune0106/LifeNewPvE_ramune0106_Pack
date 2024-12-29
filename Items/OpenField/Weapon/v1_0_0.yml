@@ -26,6 +26,6 @@ OpenField_Weapon_ガーディアン_ramune0106:
   - "自身の周囲に身を守る盾を展開する。"
   Options:
     ItemVersion: 1
-  Group:  'Sub-Weapon'
+  Group: 'Sub-Weapon'
   Skills:
   - skill{s=OpenField_Weapon_ガーディアン_ramune0106_Skills} @self ~onSwing
