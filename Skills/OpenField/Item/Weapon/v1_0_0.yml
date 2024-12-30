@@ -11,6 +11,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
   Cooldown: 1
   Skills:
   - projectile{v=8;hn=3;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit;repeat=4;repeati=6} @tl
+  - delay 18
   - jump{v=5} @self
   - teleportto{location=@selflocation;repeat=20;repeati=1} @self
   - projectile{v=8;hn=1;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick2;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit2;} @tl
