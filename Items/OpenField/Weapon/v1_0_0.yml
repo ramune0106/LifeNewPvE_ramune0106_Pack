@@ -1,13 +1,3 @@
-OpenField_Weapon_衝撃波_ramune0106:
-  Id: Stick
-  Display: "&2衝撃波"
-  Lore: []
-  Model: 1000
-  Options: 
-    ItemVersion: 1
-  Group: 'Sub-Weapon'
-  Skills:
-  - skill{s=OpenField_Weapon_衝撃波_ramune0106_Skills} @self ~onUse
 OpenField_Weapon_旋風のタクト_ramune0106:
   Id: Stick
   Display: "&a旋風のタクト"
