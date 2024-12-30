@@ -10,7 +10,7 @@ OpenField_Weapon_衝撃波_ramune0106:
   - skill{s=OpenField_Weapon_衝撃波_ramune0106_Skills} @self ~onUse
 OpenField_Weapon_旋風のタクト_ramune0106:
   Id: Stick
-  Display:"&a旋風のタクト"
+  Display: "&a旋風のタクト"
   Lore: 
   - "自身の向いている方向に小さな衝撃波を起こす。"
   Model: 1000
