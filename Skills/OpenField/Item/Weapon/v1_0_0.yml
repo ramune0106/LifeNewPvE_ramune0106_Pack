@@ -6,4 +6,4 @@ OpenField_Weapon_ガーディアン_ramune0106_Skills:
       - throw{v=2}
       - sound{s=block.anvil.place;p=1.2;audience=caster} @self
     ];
-    v=1;p=5;r=2;b=MOB;mob=OpenField_Util_盾_1_ramune0106} @self
+    i=1;p=32;r=2;b=MOB;mob=OpenField_Util_盾_1_ramune0106} @self
