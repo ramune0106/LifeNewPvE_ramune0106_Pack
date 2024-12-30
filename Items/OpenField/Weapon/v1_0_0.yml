@@ -1,14 +1,3 @@
-OpenField_Weapon_旋風のタクト_ramune0106:
-  Id: Stick
-  Display: "&a旋風のタクト"
-  Lore: 
-  - "自身の向いている方向に小さな衝撃波を起こす。"
-  Model: 1000
-  Options: 
-    ItemVersion: 1
-  Group: 'Sub-Weapon'
-  Skills:
-  - skill{s=OpenField_Weapon_旋風のタクト_ramune0106_Skills} @tl ~onSwing
 OpenField_Weapon_ガーディアン_ramune0106:
   Id: Shield
   Display: "&8ガーディアン"
