@@ -8,3 +8,14 @@ OpenField_Weapon_ガーディアン_ramune0106:
   Group: 'Sub-Weapon'
   Skills:
   - skill{s=OpenField_Weapon_ガーディアン_ramune0106_Skills} @self ~onSwing
+OpenField_Weapon_サイクロンアロー_ramune0106:
+  Id: Bow
+  Display: "&a&lサイクロンアロー"
+  Lore: 
+  - "ある少女の強い決意が顕現した武装。"
+    "敵一体に疾風属性で耐性を無視した特大ダメージを与える"
+  Options:
+    ItemVersion: 1
+  Group: 'Sub-Weapon'
+  Skills:
+  - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing

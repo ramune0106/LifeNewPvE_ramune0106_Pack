@@ -1,0 +1,13 @@
+OpenField_Weapon_サイクロンアロー_ramune0106_Tick:
+ Skills:
+ - e:p{a=25;color=#5aff19;audience=@self;p=red_dust}
+OpenField_Weapon_サイクロンアロー_ramune0106_Hit:
+ Skills:
+ - damage{a=10}
+OpenField_Weapon_サイクロンアロー_ramune0106_Tick2:
+ Skills:
+ - e:p{a=50;vs=3;hs=3;color=#5aff19;audience=@self;p=red_dust}
+OpenField_Weapon_サイクロンアロー_ramune0106_Hit2:
+ Skills:
+ - damage{a=50}
+ - sound{s=random.levelup;p=1.5} @self
