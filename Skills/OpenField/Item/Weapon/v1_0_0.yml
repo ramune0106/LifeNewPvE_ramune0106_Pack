@@ -1,6 +1,10 @@
 OpenField_Weapon_旋風のタクト_ramune0106_Skills:
   Cooldown: 1.5
   Skills:
+<<<<<<< HEAD
+=======
+  - Cooldown: 1.5
+>>>>>>> 88c140fcf300da84309f112efae7fbe492a65be1
   - shoot{t=breeze_wind_charge} @tl
 OpenField_Weapon_ガーディアン_ramune0106_Skills:
   Skills:
