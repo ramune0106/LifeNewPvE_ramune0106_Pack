@@ -1,5 +1,5 @@
 OpenField_Weapon_ガーディアン_ramune0106_Skills:
-  Cooldown: 
+  Cooldown: 20
   Skills:
   - orbital{
     oH=[
