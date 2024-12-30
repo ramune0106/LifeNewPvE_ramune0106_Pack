@@ -13,7 +13,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
   Display: "&a&lサイクロンアロー"
   Lore: 
   - "ある少女の強い決意が顕現した武装。"
-    "敵一体に疾風属性で耐性を無視した特大ダメージを与える"
+  - "敵一体に疾風属性で耐性を無視した特大ダメージを与える"
   Options:
     ItemVersion: 1
   Group: 'Sub-Weapon'
