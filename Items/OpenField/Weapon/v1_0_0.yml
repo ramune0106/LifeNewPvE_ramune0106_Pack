@@ -21,7 +21,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
   - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing
 OpenField_Weapon_生命の炎_ramune0106:
   Id: iron_sword
-  Display: "&4&lサイクロンアロー"
+  Display: "&4&l生命の炎"
   Lore: 
   - "ある少年の強い決意が顕現した武装。"
   - "敵一体に火炎属性で耐性を無視した特大ダメージを与える"
