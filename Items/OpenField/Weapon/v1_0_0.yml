@@ -12,10 +12,21 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
   Id: Bow
   Display: "&a&lサイクロンアロー"
   Lore: 
-  - "ある少女の強い決意が顕現した武装。"
+  - "ある少女の強い想いが顕現した武装。"
   - "敵一体に疾風属性で耐性を無視した特大ダメージを与える"
   Options:
     ItemVersion: 1
   Group: 'Sub-Weapon'
   Skills:
   - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing
+OpenField_Weapon_生命の炎_ramune0106:
+  Id: iron_sword
+  Display: "&4&lサイクロンアロー"
+  Lore: 
+  - "ある少年の強い決意が顕現した武装。"
+  - "敵一体に火炎属性で耐性を無視した特大ダメージを与える"
+  Options:
+    ItemVersion: 1
+  Group: 'Sub-Weapon'
+  Skills:
+  - skill{s=OpenField_Weapon_生命の炎_ramune0106_Skills} @self ~onSwing
