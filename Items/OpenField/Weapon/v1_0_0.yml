@@ -16,6 +16,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
   - "敵一体に疾風属性で耐性を無視した特大ダメージを与える"
   Options:
     ItemVersion: 1
+    Unbreakable: true
   Group: 'Sub-Weapon'
   Skills:
   - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing
