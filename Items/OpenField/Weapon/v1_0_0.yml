@@ -29,6 +29,6 @@ OpenField_Weapon_生命の炎_ramune0106:
   Options:
     ItemVersion: 1
     Unbreakable: true
-  Group: 'Sub-Weapon'
+  Group: 'Sub-Weapon
   Skills:
   - skill{s=OpenField_Weapon_生命の炎_ramune0106_Skills} @self ~onSwing
