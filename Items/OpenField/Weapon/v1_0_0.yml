@@ -22,15 +22,15 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
   - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing32
 
 OpenField_Weapon_ホログラムダガー_ramune0106:
-　Id: Diamond_Sword
-　Display: "&l&5ホログラム&b・&9ダガー"
-　Lore: 
-　- "仮想の物質を出現させて戦闘を行う短刀。"
-　Options:
-　　ItemVersion: 1
-　　Unbreakable: true
-　Group: 'Sub-Weapon'
-　Skills:
-　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onHit} @self ~onHit 
-　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
-　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
+ Id: Diamond_Sword
+ Display: "&l&5ホログラム&b・&9ダガー"
+ Lore: 
+ - "仮想の物質を出現させて戦闘を行う短刀。"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Sub-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onHit} @self ~onHit 
+ - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
+ - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
