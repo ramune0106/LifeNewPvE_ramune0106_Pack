@@ -16,14 +16,14 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
   - delay 12
   - projectile{v=8;hn=1;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick2;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit2;hp=true;hnp=true} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
-　Cooldown: 1
-　Skills:
-　- damage{a=10;pi=true;cause=magic}
+ Cooldown: 1
+ Skills:
+ - damage{a=10;pi=true;cause=magic}
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
-　Cooldown: 0.3
-　Skills:
-　- projectile{a=2;v=12;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick}
+ Cooldown: 0.3
+ Skills:
+ - projectile{a=2;v=12;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick}
 OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
-　Cooldown:　30
-　Skills:
-　- summon{a=1;t=}
+ Cooldown: 30
+ Skills:
+ - summon{a=1;t=}
