@@ -18,7 +18,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
  Cooldown: 1
  Skills:
- - damage{a=10;pi=true;cause=magic}
+ - damage{a=10;pi=true;cause=magic} @target
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
  Cooldown: 0.3
  Skills:
