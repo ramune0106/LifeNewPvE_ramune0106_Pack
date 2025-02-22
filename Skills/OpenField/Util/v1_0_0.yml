@@ -13,7 +13,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Hit2:
  - sound{s=random.levelup;p=1.5} @self
 OpenField_Weapon_ホログラムダガー_ramune0106_onTick:
  Skills:
- - effect:particle{p=reddust;c=#674598;a=100;hs=0.1;vs=0.1}
+ - effect:particle{p=reddust;c=#674598;a=10;hs=0.1;vs=0.1}
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
  Skills:
  - damage{a=2}
