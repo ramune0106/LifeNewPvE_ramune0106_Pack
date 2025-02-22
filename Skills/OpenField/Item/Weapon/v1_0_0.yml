@@ -22,7 +22,7 @@ OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
  Cooldown: 0.3
  Skills:
- - projectile{a=2;v=12;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick}
+ - projectile{a=2;v=12;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
  Cooldown: 30
  Skills:
