@@ -19,7 +19,6 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
     Unbreakable: true
   Group: 'Sub-Weapon'
   Skills:
-<<<<<<< HEAD
   - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing32
 
 OpenField_Weapon_ホログラムダガー_ramune0106:
@@ -35,18 +34,3 @@ OpenField_Weapon_ホログラムダガー_ramune0106:
 　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onHit} @self ~onHit 
 　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
 　- skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
-=======
-  - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing
-OpenField_Weapon_生命の炎_ramune0106:
-  Id: iron_sword
-  Display: "&4&l生命の炎"
-  Lore: 
-  - "ある少年の強い決意が顕現した武装。"
-  - "敵一体に火炎属性で耐性を無視した特大ダメージを与える"
-  Options:
-    ItemVersion: 1
-    Unbreakable: true
-  Group: 'Sub-Weapon
-  Skills:
-  - skill{s=OpenField_Weapon_生命の炎_ramune0106_Skills} @self ~onSwing
->>>>>>> ef43e86d4e9c1fe4b44f5970c4c01e594a051aec
