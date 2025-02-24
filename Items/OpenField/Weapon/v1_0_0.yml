@@ -19,7 +19,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106:
     Unbreakable: true
   Group: 'Sub-Weapon'
   Skills:
-  - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing32
+  - skill{s=OpenField_Weapon_サイクロンアロー_ramune0106_Skills} @self ~onSwing
 
 OpenField_Weapon_ホログラムダガー_ramune0106:
  Id: Diamond_Sword
