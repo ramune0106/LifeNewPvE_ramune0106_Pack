@@ -19,5 +19,7 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
  - chainmail_chestplate CHEST
  - chainmail_leggings LEGS
  - chainmail_boots FEET
+ Skills:
+   - skill{s=OpenField_Util_ホログラムダガー_Dummy_target_ramune0106} @castar ~onTimer:3
 
  
