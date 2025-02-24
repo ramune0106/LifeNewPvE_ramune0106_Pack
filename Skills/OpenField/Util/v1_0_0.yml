@@ -16,4 +16,4 @@ OpenField_Weapon_ホログラムダガー_ramune0106_onTick:
  - effect:particle{p=reddust;c=#674598;a=10;hs=0;vs=0} @origin
 OpenField_Weapon_ホログラムダガー_ramune0106_PonHit:
  Skills:
- - damage{a=3;type=magic}
+ - damage{a=3;type=none}
