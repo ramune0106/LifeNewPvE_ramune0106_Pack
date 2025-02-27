@@ -19,4 +19,4 @@ OpenField_Weapon_ホログラムダガー_ramune0106_PonHit:
  - damage{a=3;type=none}
 OpenField_Util_ホログラムダガー_Dummy_target_ramune0106:
  Skills:
- - setTarget @self
+ - setTarget @self ~onInteract
