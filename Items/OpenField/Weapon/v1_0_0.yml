@@ -34,3 +34,7 @@ OpenField_Weapon_ホログラムダガー_ramune0106:
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onHit} @self ~onHit 
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
+ Conditions:
+  crouching true
+ Skills:
+ - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self
