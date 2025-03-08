@@ -20,7 +20,7 @@ OpenField_Food_ナガレブドウ_ramune0106:
  - "流れる水のような力をくれる果物。"
  - "水属性のダメージと会心率を少し上昇させる"
   Hide:
- - ATTRIBUTES
+  - ATTRIBUTES
  Group: 'Food'
  Options:
     Destroy: false
@@ -35,7 +35,7 @@ OpenField_Food_センプウメロン_ramune0106:
  - "風属性のダメージと会心率を少し上昇させる"
  - "&m&0厳密には果物じゃなくて野菜だけど"
   Hide:
- - ATTRIBUTES
+  - ATTRIBUTES
  Group: 'Food'
  Options:
     Destroy: false
@@ -49,7 +49,7 @@ OpenField_Food_ライメイバナナ_ramune0106:
  - "鳴り響く雷鳴のような力をくれる果物。"
  - "雷属性のダメージと会心率を少し上昇させる"
   Hide:
- - ATTRIBUTES
+  - ATTRIBUTES
  Group: 'Food'
  Options:
     Destroy: false
