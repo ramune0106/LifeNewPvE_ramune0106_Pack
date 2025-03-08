@@ -1,0 +1,58 @@
+OpenField_Food_ホムライチゴ_ramune0106:
+ Id: sweet_berries
+ Display:"&l&cホムライチゴ"
+ Lore:
+ - "燃えるような力をくれる果物。"
+ - "火属性ダメージと会心率が少し上昇する"
+ - "&m&0厳密には果物じゃなくて野菜だけど"
+ Hide:
+ - ATTRIBUTES
+ Group: 'Food'
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    #Unbreakable: true
+OpenField_Food_ナガレブドウ_ramune0106:
+ Id: Apple
+ Display:"&l&9ナガレ&l&5ブドウ"
+ Lore:
+ - "流れる水のような力をくれる果物。"
+ - "水属性のダメージと会心率を少し上昇させる"
+  Hide:
+ - ATTRIBUTES
+ Group: 'Food'
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    #Unbreakable: true
+OpenField_Food_センプウメロン_ramune0106:
+ Id: Apple
+ Display:"&l&aセンプウメロン"
+ Lore:
+ - "吹きつける風のような力をくれる果物。"
+ - "風属性のダメージと会心率を少し上昇させる"
+ - "&m&0厳密には果物じゃなくて野菜だけど"
+  Hide:
+ - ATTRIBUTES
+ Group: 'Food'
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    #Unbreakable: true
+OpenField_Food_ライメイバナナ_ramune0106:
+ Id: Apple
+ Display:"&l&6ライメイバナナ"
+ Lore:
+ - "鳴り響く雷鳴のような力をくれる果物。"
+ - "雷属性のダメージと会心率を少し上昇させる"
+  Hide:
+ - ATTRIBUTES
+ Group: 'Food'
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    #Unbreakable: true
