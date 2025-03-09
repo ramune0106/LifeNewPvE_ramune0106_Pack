@@ -15,7 +15,7 @@ OpenField_Food_ホムライチゴ_ramune0106:
     #Unbreakable: true
 OpenField_Food_ナガレブドウ_ramune0106:
  Id: Apple
- Display: "&l&9ナガレ&l&5ブドウ"
+ Display: "&l&9ナガレブドウ"
  Lore:
  - "流れる水のような力をくれる果物。"
  - "水属性のダメージと会心率を少し上昇させる"
