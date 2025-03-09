@@ -14,11 +14,6 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
     KnockbackResistance: 255
     NoAI: true
     AttackSpeed: 0
- Equipment:
- - chainmail_helmet HEAD
- - chainmail_chestplate CHEST
- - chainmail_leggings LEGS
- - chainmail_boots FEET
  Skills:
    - skill{s=OpenField_Util_ホログラムダガー_Dummy_target_ramune0106} @castar ~onTimer:3
 
