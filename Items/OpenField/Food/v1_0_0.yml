@@ -58,7 +58,7 @@ OpenField_Food_ライメイバナナ_ramune0106:
     #Unbreakable: 
 OpenField_Food_満天フルーツタルト_ramune0106:
  Id: Pumpkin_pie
- Display:"&l6l満天&l&cフ&l&6ル&l&eー&l&aツ&l&9タ&l&1ル&l&5ト"
+ Display: "&l6l満天&l&cフ&l&6ル&l&eー&l&aツ&l&9タ&l&1ル&l&5ト"
  Lore:
  - "様々なフルーツを盛り合わせた至高のタルト。"
  - "全属性の攻撃力と会心率が上昇する。"
