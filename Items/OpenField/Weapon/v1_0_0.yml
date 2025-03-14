@@ -35,3 +35,16 @@ OpenField_Weapon_ホログラムダガー_ramune0106:
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self
+OpenField_Weapon_迅雷ノ槍_ramune0106:
+ Id: Golden_Shovel
+ Display: "&l&6迅雷ノ槍"
+ Lore:
+ - "天から降り注いだ雷で鍛えられた槍"
+ - "振ると敵に突進する。使用した場合は耐性を自身に与える"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing} @self ~onSwing
+ - skill{s=OpenField_Weapon_迅雷ノ槍_ramune0106_onUse} @self ~onUse
