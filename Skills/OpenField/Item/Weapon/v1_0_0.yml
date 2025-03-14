@@ -30,4 +30,4 @@ OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
 OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing:
  Cooldown: 30
  Skills:
- - propel{v=3;delay=1} @trigger ?~distance{d=>6}
+ - lunge{velocity=15;velocityY=5} @Self
