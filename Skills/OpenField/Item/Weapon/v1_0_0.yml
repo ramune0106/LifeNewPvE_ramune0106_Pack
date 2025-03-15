@@ -28,6 +28,6 @@ OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
  Skills:
  - summon{a=1;t=OpenField_Util_ホログラムダガー_Dummy_ramune0106} 
 OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing:
- Cooldown: 30
+ Cooldown: 0.8
  Skills:
- - lunge{velocity=15;velocityY=5} @Self
+ - lunge{velocity=15;velocityY=3} @Self
