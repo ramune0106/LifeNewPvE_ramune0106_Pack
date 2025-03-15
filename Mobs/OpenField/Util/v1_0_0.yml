@@ -7,7 +7,7 @@ OpenField_Util_盾_1_ramune0106:
    Scale: 1.2,1.2,1.2
  Skills:
 OpenField_Util_ホログラムダガー_Dummy_ramune0106:
- Type: Armor_Stand
+ Type: Zombie
  Display: '分身体[ホログラム]'
  Health: 250
  Options:
