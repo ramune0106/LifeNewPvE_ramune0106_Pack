@@ -20,4 +20,3 @@ OpenField_Weapon_ホログラムダガー_ramune0106_PonHit:
 OpenField_Util_ホログラムダガー_Dummy_target_ramune0106:
  Skills:
  - doppleganger @NearestPlayer ~onSpawn
- - setTarget 

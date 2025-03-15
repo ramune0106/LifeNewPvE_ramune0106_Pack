@@ -11,7 +11,6 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
  Display: '分身体[ホログラム]'
  Health: 250
  Options:
-    KnockbackResistance: 255
     NoAI: true
     AttackSpeed: 0
  Skills:
@@ -21,5 +20,6 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
      - delay 100
      - setTarget @none
    ];cat=true} @EIR{r=32} ~onSpawn
+ - doppleganger @NearestPlayer ~onSpawn
 
  
