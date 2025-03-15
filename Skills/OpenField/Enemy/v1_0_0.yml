@@ -3,7 +3,7 @@ OpenField_Util_ホログラムダガー_Effect_ramune0106:
   - setvar{var=skill.x;val="<random.float.-5to5>";t=FLOAT} @self 
   - setvar{var=skill.y;val="<random.float.-5to5>";t=FLOAT} @self 
   - setvar{var=skill.z;val="<random.float.-5to5>";t=FLOAT} @self 
-  - e:p{p=reddust;a=1;s=0.5;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>};fo=true} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
+  - e:p{p=red_dust;a=1;s=0.5;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>};fo=true} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
 OpenField_Util_ホログラムダガー_Effect2_ramune0106:
   Skills:
   - totem{
