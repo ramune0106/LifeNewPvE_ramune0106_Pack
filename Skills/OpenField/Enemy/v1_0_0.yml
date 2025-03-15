@@ -1,0 +1,14 @@
+OpenField_Util_ホログラムダガー_Effect_ramune0106:
+  Skills:
+  - setvar{var=skill.x;val="<random.float.-5to5>";t=FLOAT} @self 
+  - setvar{var=skill.y;val="<random.float.-5to5>";t=FLOAT} @self 
+  - setvar{var=skill.z;val="<random.float.-5to5>";t=FLOAT} @self 
+  - e:p{p=cloud;a=1;s=0.5;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>};fo=true} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
+OpenField_Util_ホログラムダガー_Effect2_ramune0106:
+  Skills:
+  - totem{
+    ot=[
+      - pull{v=4;to=true} @ENO{r=8;conditions=[ - isLiving true - faction{f=Enemy} true - hasTag{t=cancel} false ]}
+      - skill:OpenField_Util_ホログラムダガー_Effect_ramune0106{repeat=10;repeatI=1} @origin
+
+    ];i=4;fo=true;md=200;syo=0;sfo=0} @origin

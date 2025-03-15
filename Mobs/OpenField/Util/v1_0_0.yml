@@ -20,8 +20,8 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
      - setTarget @trigger
      - delay 100
      - setTarget @none
-   ];cat=true} @EIR{r=32} ~onSpawn
+   ];cat=true;repeat=30;repeati=20} @EIR{r=32} ~onSpawn
  - doppleganger @owner ~onSpawn
  - removefire @self ~onSpawn
-
+ - skill:OpenField_Util_ホログラムダガー_Effect2_ramune0106 @self ~onSpawn
  
