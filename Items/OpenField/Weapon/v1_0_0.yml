@@ -32,9 +32,8 @@ OpenField_Weapon_ホログラムダガー_ramune0106:
  Group: 'Sub-Weapon'
  Skills:
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onHit} @self ~onHit 
- - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @self ~onUse 
+ - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onUse} @tl ~onUse 
  - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self ~onSwing
- - skill{s=OpenField_Weapon_ホログラムダガー_ramune0106_onSwing} @self
 OpenField_Weapon_迅雷ノ槍_ramune0106:
  Id: Golden_Shovel
  Display: "&l&6迅雷ノ槍"

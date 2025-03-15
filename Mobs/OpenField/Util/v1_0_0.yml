@@ -15,6 +15,11 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
     NoAI: true
     AttackSpeed: 0
  Skills:
-   - skill{s=OpenField_Util_ホログラムダガー_Dummy_target_ramune0106} @castar ~onTimer:3
+ - sudoskill{
+   s=[
+     - setTarget @trigger
+     - delay 100
+     - setTarget @none
+   ];cat=true} @EIR{r=32} ~onSpawn
 
  
