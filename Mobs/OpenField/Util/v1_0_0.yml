@@ -22,5 +22,6 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
      - setTarget @none
    ];cat=true} @EIR{r=32} ~onSpawn
  - doppleganger @owner ~onSpawn
+ - removefire @self ~onSpawn
 
  
