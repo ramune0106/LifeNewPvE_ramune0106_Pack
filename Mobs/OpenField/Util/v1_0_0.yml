@@ -20,6 +20,6 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
      - delay 100
      - setTarget @none
    ];cat=true} @EIR{r=32} ~onSpawn
- - doppleganger @NearestPlayer ~onSpawn
+ - doppleganger @trigger ~onSpawn
 
  
