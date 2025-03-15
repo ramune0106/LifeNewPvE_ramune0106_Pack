@@ -13,6 +13,7 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
  Options:
     NoAI: true
     AttackSpeed: 0
+    PreventSunburn: true
  Skills:
  - sudoskill{
    s=[
