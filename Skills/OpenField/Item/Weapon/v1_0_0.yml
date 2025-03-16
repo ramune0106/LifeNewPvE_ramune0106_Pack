@@ -33,3 +33,9 @@ OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing:
  - lunge{velocity=5;vy=0} @Self
  - e:sound{s=entity.generic.explode;v=0.5} @self
  - potion{t=RESISTANCE;l=4}
+OpenField_Weapon_迅雷ノ槍改_ramune0106_onSwing:
+ Cooldown: 0.8
+ Skills:
+ - lunge{velocity=5;vy=1} @Self
+ - e:sound{s=entity.generic.explode;v=0.5} @self
+ - potion{t=RESISTANCE;l=4}

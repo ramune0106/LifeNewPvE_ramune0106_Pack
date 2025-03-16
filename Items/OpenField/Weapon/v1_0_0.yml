@@ -47,3 +47,16 @@ OpenField_Weapon_迅雷ノ槍_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing} @self ~onSwing
  - skill{s=OpenField_Weapon_迅雷ノ槍_ramune0106_onUse} @self ~onUse
+OpenField_Weapon_迅雷ノ槍改_ramune0106:
+ Id: Golden_Shovel
+ Display: "&l&6迅雷ノ槍・改"
+ Lore:
+ - "天から降り注いだ雷で鍛えられた槍"
+ - "振ると前方に突進する。使用した場合は耐性を自身に与える"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_迅雷ノ槍改_ramune0106_onSwing} @self ~onSwing
+ - skill{s=OpenField_Weapon_迅雷ノ槍改_ramune0106_onUse} @self ~onUse
