@@ -31,5 +31,5 @@ OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing:
  Cooldown: 0.8
  Skills:
  - lunge{velocity=5;vy=0} @Self
- - sound{s=Smithing_Table2}
- - e:sound{s=entity.generic.explode}
+ - sound{s=Smithing_Table2} @self
+ - e:sound{s=entity.generic.explode} @self
