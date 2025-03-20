@@ -33,7 +33,7 @@ OpenField_Weapon_オービットランタンB_Lantern_ramune0106:
    Scale: 1,1,1
  Skills:
  Cooldown: 1
-  - missile{oT=OpenField_Weapon_オービットランタンB_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンB_ramune0106_OnHit;v=10;hp=true;hnp=false} {r=10} ~onTimer:10
+  - missile{oT=OpenField_Weapon_オービットランタンB_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンB_ramune0106_OnHit;v=10;hp=true;hnp=false} @EIR{r=10} ~onTimer:10
 OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
  Type: Block_display
  DisplayOptions:
