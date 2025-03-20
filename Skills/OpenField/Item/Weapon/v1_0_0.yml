@@ -42,4 +42,4 @@ OpenField_Weapon_迅雷ノ槍改_ramune0106_onSwing:
 OpenField_Weapon_オービットランタンB_ramune0106_Skill:
  Cooldown: 1
  Skills:
- - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106;}
+ - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106}
