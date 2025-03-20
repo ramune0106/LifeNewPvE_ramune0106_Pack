@@ -60,3 +60,16 @@ OpenField_Weapon_迅雷ノ槍改_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_迅雷ノ槍改_ramune0106_onSwing} @self ~onSwing
  - skill{s=OpenField_Weapon_迅雷ノ槍改_ramune0106_onUse} @self ~onUse
+OpenField_Weapon_オービットランタンB_ramune0106:
+ Id: soul_lantern
+ Display: "オービットランタンβ"
+ Lore:
+ - "魂と魔力の込められた不思議なランタン"
+ - "敵を自動攻撃するランタンを出現させる"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Sub-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_オービットランタンB_ramune0106_Skill} @self ~onUse
+

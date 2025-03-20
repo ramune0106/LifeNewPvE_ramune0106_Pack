@@ -24,4 +24,23 @@ OpenField_Util_ホログラムダガー_Dummy_ramune0106:
  - doppleganger @owner ~onSpawn
  - removefire @self ~onSpawn
  - skill:OpenField_Util_ホログラムダガー_Effect2_ramune0106 @self ~onSpawn
- 
+OpenField_Weapon_オービットランタンB_Lantern_ramune0106:
+ Type: Block_display
+ DisplayOptions:
+   Block: soul_lantern
+   BlockLight: 15
+   SkyLight: 15
+   Scale: 1,1,1
+ Skills:
+ Cooldown: 1
+  - missile{oT=OpenField_Weapon_オービットランタンB_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンB_ramune0106_OnHit;v=10;hp=true;hnp=false} @tl
+OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
+ Type: Block_display
+ DisplayOptions:
+   Block: lantern
+   BlockLight: 15
+   SkyLight: 15
+   Scale: 1,1,1
+ Skills:
+ Cooldown: 0.5
+  - missile{oT=OpenField_Weapon_オービットランタンA_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンA_ramune0106_OnHit;v=10;hp=true;hnp=false} @tl
