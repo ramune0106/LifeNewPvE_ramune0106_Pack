@@ -59,5 +59,6 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
     auraName=katanacounter;d=10;
     onHit=[
      - damage{a=7} @EIR{r=5}
+     - sound{s=entity.experience_orb.pickup}
       ];
    }
