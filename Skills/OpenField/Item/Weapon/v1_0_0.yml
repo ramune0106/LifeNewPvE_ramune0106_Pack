@@ -47,6 +47,6 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill:
  Cooldown: 0.25
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
-    oP=[ - effect:particles{p=witch} ];
+    oP=[ - effect:particles{p=witch;a=10} ];
     oH=[ - damage{a=6} ]
     } @self ~onUse
