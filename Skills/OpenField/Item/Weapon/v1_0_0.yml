@@ -51,3 +51,4 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill:
     oH=[ - damage{a=6} ]
     } @self ~onUse
  - sound{s=minecraft:entity.player.attack.sweep}
+ - sound{s=mob.ghast.fireball}
