@@ -83,4 +83,4 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106:
   Unbreakable: true
  Group: 'Main-Weapon'
  Skills:
- - skill{s=OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill} @self ~onSwing
+ - skill{s=OpenField_Weapon_銘刀_ramune0106_Skill} @self ~onSwing
