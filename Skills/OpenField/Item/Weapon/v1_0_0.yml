@@ -44,9 +44,9 @@ OpenField_Weapon_オービットランタンB_ramune0106_Skill:
  Skills:
  - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106}
 OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill:
- Cooldwon:
+ Cooldown: 0.25
  Skills:
- - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=5;duration=5;
-    oP=[ - effect:particles{p=SPARK} ];
-    oH=[ - damage{a=2} ]
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+    oP=[ - effect:particles{p=witch} ];
+    oH=[ - damage{a=6} ]
     } @self ~onUse
