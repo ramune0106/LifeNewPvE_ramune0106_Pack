@@ -53,10 +53,11 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
  - sound{s=minecraft:entity.player.attack.sweep}
  - sound{s=entity.ghast.shoot}
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
- Cooldown: 5
+ Cooldown: 10
  Skills:
  - onDamaged{
+    auraName=katanacounter;d=10;
     onHit=[
      - damage{a=7} @EIR{r=5}
       ];
-}
+   }
