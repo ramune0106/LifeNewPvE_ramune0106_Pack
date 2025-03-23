@@ -31,8 +31,7 @@ OpenField_Weapon_オービットランタンB_Lantern_ramune0106:
    BlockLight: 15
    SkyLight: 15
  Skills:
- Cooldown: 1
-  - missile{oT=OpenField_Weapon_オービットランタンB_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンB_ramune0106_OnHit;v=10;hp=true;hnp=false} @EIR{r=10} ~onTimer:10
+ - missile{oT=OpenField_Weapon_オービットランタンB_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンB_ramune0106_OnHit;v=10;hp=false;hnp=true;cd=1} @EIR{r=10} ~onTimer:10
 OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
  Type: Block_display
  DisplayOptions:
@@ -40,5 +39,4 @@ OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
    BlockLight: 15
    SkyLight: 15
  Skills:
- Cooldown: 0.5
-  - missile{oT=OpenField_Weapon_オービットランタンA_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンA_ramune0106_OnHit;v=10;hp=true;hnp=false} @EIR{r=10} ~onTimer:5
+ - missile{oT=OpenField_Weapon_オービットランタンA_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンA_ramune0106_OnHit;v=10;hp=false;hnp=true;cd=0.5} @EIR{r=10} ~onTimer:5
