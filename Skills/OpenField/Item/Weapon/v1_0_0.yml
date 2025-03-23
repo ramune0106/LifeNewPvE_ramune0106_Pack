@@ -43,12 +43,20 @@ OpenField_Weapon_オービットランタンB_ramune0106_Skill:
  Cooldown: 1
  Skills:
  - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106}
-OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill:
+OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
  Cooldown: 0.25
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
     oP=[ - effect:particles{p=witch;a=10} ];
     oH=[ - damage{a=6} ]
-    } @self ~onUse
+    }
  - sound{s=minecraft:entity.player.attack.sweep}
  - sound{s=entity.ghast.shoot}
+OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
+ Cooldown: 5
+ Skills:
+ - onDamaged
+    onHit=[
+     - damage{a=7} @EIR{r=5}
+      ];
+}
