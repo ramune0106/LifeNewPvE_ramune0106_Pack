@@ -72,4 +72,15 @@ OpenField_Weapon_オービットランタンB_ramune0106:
  Group: 'Sub-Weapon'
  Skills:
  - skill{s=OpenField_Weapon_オービットランタンB_ramune0106_Skill} @self ~onUse
-
+OpenField_Weapon_銘刀陽炎壱_ramune0106:
+ Id: Diamond_Sword
+ Display: "銘刀・陽炎-壱"
+ Lore:
+ - "魔力の宿った焔で鍛えられた刀"
+ - "まだ成長段階のようだ"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill} @self ~onSwing
