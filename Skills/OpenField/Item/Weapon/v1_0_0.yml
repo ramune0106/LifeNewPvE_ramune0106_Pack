@@ -47,8 +47,6 @@ OpenField_Weapon_オービットランタンA_ramune0106_Skill:
  Cooldown: 1
  Skills:
  - summon{a=1;t=OpenField_Weapon_オービットランタンA_Lantern_ramune0106}
- - delay 10
- - remove @self
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
  Cooldown: 0.25
  Skills:
