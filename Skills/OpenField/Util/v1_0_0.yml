@@ -28,7 +28,7 @@ OpenField_Weapon_オービットランタンB_ramune0106_OnHit:
  - damage{a=3;dc=FIRE}
 OpenField_Weapon_オービットランタンA_ramune0106_OnTick:
  Skills:
- - e:p{p=fire_flame;a=10} @origin
+ - e:p{p=flame;a=10} @origin
 OpenField_Weapon_オービットランタンA_ramune0106_OnHit:
  Skills:
  - damage{a=2;dc=FIRE}
