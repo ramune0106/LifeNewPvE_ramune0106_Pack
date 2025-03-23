@@ -55,10 +55,3 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
- - onDamaged{
-    auraName=katanacounter;d=10;
-    onHit=[
-     - damage{a=7} @EIR{r=5}
-     - sound{s=entity.experience_orb.pickup}
-      ];
-   }
