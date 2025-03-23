@@ -55,7 +55,7 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 5
  Skills:
- - onDamaged
+ - onDamaged{
     onHit=[
      - damage{a=7} @EIR{r=5}
       ];
