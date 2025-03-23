@@ -50,3 +50,4 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_Skill:
     oP=[ - effect:particles{p=witch;a=10} ];
     oH=[ - damage{a=6} ]
     } @self ~onUse
+ - sound{s=minecraft:entity.player.attack.knockback}
