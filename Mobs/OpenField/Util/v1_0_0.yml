@@ -40,5 +40,4 @@ OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
    SkyLight: 15
  Skills:
  - missile{oT=OpenField_Weapon_オービットランタンA_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンA_ramune0106_OnHit;v=10;hp=false;hnp=true;cd=0.5} @EIR{r=10;ignore=players} ~onTimer:5
- - delay 20
- - remove @self
+ - remove{delay=20} @self ~onSpawn
