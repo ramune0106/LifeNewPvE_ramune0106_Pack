@@ -122,7 +122,7 @@ OpenField_Weapon_グランドアックス_ramune0106:
  Attributes:
   MainHand:
    Damage: 9
-   AttackSpeed: -1.2 MULTIPLY_BASE
+   AttackSpeed: -0.8 MULTIPLY_BASE
  Group: 'Melee-Weapon'
  Skills:
  - potion{t=STRENGTH;l=5;d=10;cd=60} @self ~onUse
