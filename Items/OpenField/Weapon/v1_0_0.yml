@@ -125,5 +125,5 @@ OpenField_Weapon_グランドアックス_ramune0106:
    AttackSpeed: -0.8 MULTIPLY_BASE
  Group: 'Melee-Weapon'
  Skills:
- - potion{t=STRENGTH;l=5;d=10;cd=60} @self ~onUse
- - sound{s=block.beacon.activate} @self ~onUse
+ - potion{t=STRENGTH;l=5;d=160;cd=60} @self ~onUse
+ - sound{s=block.beacon.activate;cd=60} @self ~onUse
