@@ -121,7 +121,7 @@ OpenField_Weapon_グランドアックス_ramune0106:
   Unbreakable: true
  Attributes:
   MainHand:
-   Damage: 9
+   Damage: 18
    AttackSpeed: -0.8 MULTIPLY_BASE
  Group: 'Melee-Weapon'
  Skills:
