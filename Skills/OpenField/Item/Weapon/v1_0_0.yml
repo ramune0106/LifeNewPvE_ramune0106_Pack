@@ -13,8 +13,8 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
   - projectile{v=8;hn=3;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit;repeat=4;repeati=6;hnp=true;hp=true} @tl
   - delay 20
   - jump{v=1.5} @self
-  - setFallDistance{a=0} @self
   - delay 12
+  - setFallDistance{a=0} @self
   - projectile{v=8;hn=1;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick2;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit2;hp=true;hnp=true} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
  Cooldown: 1
