@@ -1,10 +1,11 @@
-OpenField_Armor_い_MCLove32:
-  Id: 
-  Display: ""
+OpenField_Armor_い_ramune0106:
+  Id: Leather_Boots
+  Display: "魔導のブーツ"
   Lore:
-  - ""
+  - "魔力の込められた珍しいブーツ。"
   Model: 1001
   Options:
+    Color: 204,0,255
     Destroy: false
     CancelDamage: true
     ItemVersion: 1
@@ -12,10 +13,10 @@ OpenField_Armor_い_MCLove32:
   Enchantments:
   Attributes:
     Head:
-      Armor: 15 ADD
+      Armor: 5 ADD
       Health: 2 ADD
-      ArmorToughness: 10 ADD
+      ArmorToughness: 4 ADD
   Group: 'Armor'
   NBT:
     PublicBukkitValues:
-      lifenewpve:max_mana: "50"
+      lifenewpve:max_mana: "100"
