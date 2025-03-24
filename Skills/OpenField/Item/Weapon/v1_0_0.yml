@@ -59,3 +59,15 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
+OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing:
+ Cooldown: 0.15
+ Skills:
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+    oP=[ - effect:particles{p=item_snowball;a=10} ];
+    oH=[ - damage{a=3.5} ]
+    }
+ - sound{s=minecraft:entity.player.attack.sweep}
+ - sound{s=block.glass.break}
+OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
+ Cooldown: 10
+ Skills:
