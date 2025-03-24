@@ -127,3 +127,5 @@ OpenField_Weapon_グランドアックス_ramune0106:
  Skills:
  - potion{t=STRENGTH;l=5;d=160;cd=60} @self ~onUse
  - sound{s=block.beacon.activate;cd=60} @self ~onUse
+ - delay 1200
+ - sound{s=entity.experience_orb.pickup;} @self

@@ -1,0 +1,21 @@
+OpenField_Armor_い_MCLove32:
+  Id: 
+  Display: ""
+  Lore:
+  - ""
+  Model: 1001
+  Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    Unbreakable: true
+  Enchantments:
+  Attributes:
+    Head:
+      Armor: 15 ADD
+      Health: 2 ADD
+      ArmorToughness: 10 ADD
+  Group: 'Armor'
+  NBT:
+    PublicBukkitValues:
+      lifenewpve:max_mana: "50"
