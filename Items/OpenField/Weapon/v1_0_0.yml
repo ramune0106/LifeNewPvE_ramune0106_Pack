@@ -110,3 +110,20 @@ OpenField_Weapon_銘刀吹雪壱_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing} @self ~onSwing
  - skill{s=OpenField_Weapon_銘刀吹雪壱_ramune0106_onUse} @self ~onUse
+OpenField_Weapon_グランドアックス_ramune0106:
+ Id: golden_axe
+ Display: "グランドアックス"
+ Lore:
+ - "とても重い大斧。"
+ - "一撃の威力はとてつもない"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Attributes:
+  MainHand:
+   Damage: 9
+   AttackSpeed: -1.2 MULTIPLY_BASE
+ Group: 'Melee-Weapon'
+ Skills:
+ - potion{t=STRENGTH;l=5;d=10;cd=60} @self ~onUse
+ - sound{s=block.beacon.activate} @self ~onUse
