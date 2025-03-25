@@ -141,4 +141,4 @@ OpenField_Weapon_月夜のステッキ_ramune0106:
  Group: 'Main-Weapon'
  Skills:
  - heal{a=8;cd=30} @self ~onUse
- - sound{s=block.enchantment_table.use} @self ~onUse 
+ - sound{s=block.enchantment_table.use;cd=30} @self ~onUse 
