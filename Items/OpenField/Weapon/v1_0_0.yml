@@ -149,7 +149,7 @@ OpenField_Weapon_颯の羽根_ramune0106:
  - "颯のごとき素早さを授ける羽根"
  - "「蝶のように舞い、蜂の様に刺す」"
  Attributes:
-   MainHand:
+   OffHand:
      MovementSpeed: -0.3 MULTIPLY_BASE
  Options:
   ItemVersion: 1
