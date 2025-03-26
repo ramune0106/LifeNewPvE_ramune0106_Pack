@@ -147,10 +147,10 @@ OpenField_Weapon_颯の羽根_ramune0106:
  Display: "&l&a颯の&l&b羽根"
  Lore:
  - "颯のごとき素早さを授ける羽根"
- - ""蝶の様に舞い、蜂のように刺す""
+ - "「蝶のように舞い、蜂の様に刺す」"
  Attributes:
    MainHand:
-    MovementSpeed: -0.3 MULTIPLY_BASE
+     MovementSpeed: -0.3 MULTIPLY_BASE
  Options:
   ItemVersion: 1
   Unbreakable: true
