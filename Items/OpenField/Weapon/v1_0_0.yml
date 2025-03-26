@@ -150,7 +150,7 @@ OpenField_Weapon_颯の羽根_ramune0106:
  - "「蝶のように舞い、蜂の様に刺す」"
  Attributes:
    OffHand:
-     MovementSpeed: -0.3 MULTIPLY_BASE
+     MovementSpeed: 0.3 MULTIPLY_BASE
  Options:
   ItemVersion: 1
   Unbreakable: true
