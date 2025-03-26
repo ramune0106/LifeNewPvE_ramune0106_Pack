@@ -142,3 +142,18 @@ OpenField_Weapon_月夜のステッキ_ramune0106:
  Skills:
  - heal{a=8;cd=30} @self ~onUse
  - sound{s=block.enchantment_table.use;cd=30} @self ~onUse 
+OpenField_Weapon_颯の羽根_ramune0106:
+ Id: Feather
+ Display: "&l&a颯の&l&b羽根"
+ Lore:
+ - "颯のごとき素早さを授ける羽根"
+ - ""蝶の様に舞い、蜂のように刺す""
+ Attributes:
+   MainHand:
+     MovementSpeed: -0.3 MULTIPLY_BASE
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - potion{t=SPEED;d=100;l=2} @self ~onUse
