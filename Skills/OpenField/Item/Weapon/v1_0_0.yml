@@ -90,5 +90,5 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
     - e:pl{p=spark;fromOrigin=true;y=0.5}
     - e:p{p=crit_magic;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
    ];
-   b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+   b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
