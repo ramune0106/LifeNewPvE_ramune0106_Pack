@@ -1,7 +1,7 @@
 OpenField_Weapon_ガーディアン_ramune0106_Skills:
   Cooldown: 20
   Skills:
-  - orbital{i=1;p=32;r=2;b=MOB;mob=OpenField_Util_盾_1_ramune0106;oH=OpenField_Weapon_ガーディアン_ramune0106_oH} @self
+  - orbital{i=1;p=32;r=2;rx=0.63;b=MOB;mob=OpenField_Util_盾_1_ramune0106;oH=OpenField_Weapon_ガーディアン_ramune0106_oH} @self
 OpenField_Weapon_ガーディアン_ramune0106_oH:
   Cooldown: 20
   Skills:

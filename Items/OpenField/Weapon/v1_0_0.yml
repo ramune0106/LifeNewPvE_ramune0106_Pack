@@ -158,3 +158,15 @@ OpenField_Weapon_颯の羽根_ramune0106:
  Group: 'Main-Weapon'
  Skills:
  - potion{t=SPEED;d=100;l=2} @self ~onUse
+OpenField_Weapon_フェアリースペルライトニング_ramune0106:
+ Id: Book
+ Display: "フェアリースペル:ライトニング"
+ Lore:
+ - "一時的にその身に精霊を宿し、魔術を使用する。"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill} @self ~onUse
+
