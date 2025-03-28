@@ -78,6 +78,6 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
  - chain{
    m=[
     - damage{a=3}
-    - fakelightning
+    - fakelightning{l=true;r=16}
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
