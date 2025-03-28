@@ -79,3 +79,4 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
 OpenField_Weapon_フェアリースペルライトニング_ramune0106_Bounce:
  Skills:
  - damage{a=3}
+ - fakelightning
