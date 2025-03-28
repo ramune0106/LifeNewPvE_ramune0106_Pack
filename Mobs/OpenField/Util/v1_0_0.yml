@@ -42,3 +42,10 @@ OpenField_Weapon_オービットランタンA_Lantern_ramune0106:
  Skills:
  - missile{oT=OpenField_Weapon_オービットランタンA_ramune0106_OnTick;oH=OpenField_Weapon_オービットランタンA_ramune0106_OnHit;v=10;hp=false;hnp=true;cd=0.5} @EIR{r=10;ignore=players} ~onTimer:5
  - remove{delay=600} @self ~onSpawn
+
+OpenField_Util_LIGHTNING_BOLT_ramune0106:
+ Type: LIGHTNING_BOLT
+ Options:
+   Silent: true 
+ Skills:
+ - remove{delay=10} @self ~onSpawn 

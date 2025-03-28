@@ -77,7 +77,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
  Skills:
  - chain{
    m=[
-    - damage{a=3}
-    - fakelightning{l=true;r=4}
+    - damage{a=3;pi=true;ii=true}
+    - summon{t=OpenField_Util_LIGHTNING_BOLT_ramune0106;a=1;r=0}
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
