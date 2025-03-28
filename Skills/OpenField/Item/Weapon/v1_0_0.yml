@@ -1,12 +1,12 @@
 OpenField_Weapon_ガーディアン_ramune0106_Skills:
   Cooldown: 20
   Skills:
-  - orbital{
-    oH=[
-      - throw{v=2}
-      - sound{s=block.anvil.place;p=1.2;audience=caster} @self
-    ];
-    i=1;p=32;r=2;b=MOB;mob=OpenField_Util_盾_1_ramune0106} @self
+  - orbital{i=1;p=32;r=2;b=MOB;mob=OpenField_Util_盾_1_ramune0106;oH=OpenField_Weapon_ガーディアン_ramune0106_oH} @
+OpenField_Weapon_ガーディアン_ramune0106_oH:
+  Cooldown: 20
+  Skills:
+  - throw{v=2}
+  - sound{s=block.anvil.place;p=1.2;audience=caster} @self
 OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
   Cooldown: 1
   Skills:
