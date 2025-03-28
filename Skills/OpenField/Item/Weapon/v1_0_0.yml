@@ -86,9 +86,12 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
  Skills:
  - chain{
    m=[
-    - damage{a=3;pi=true;ii=true}
+    - setVar{n=target.add;a="<target.var.add|0> + 3";t=INTEGER} 
+    - delay 4
     - e:pl{p=spark;fromOrigin=true;y=0.5}
     - e:p{p=crit_magic;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
+    - damage{a=<target.var.add|0>;pi=true;ii=true}
+    - unsetVar{k=target.add}
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
