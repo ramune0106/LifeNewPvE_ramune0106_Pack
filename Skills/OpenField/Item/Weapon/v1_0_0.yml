@@ -78,7 +78,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
  - chain{
    m=[
     - damage{a=3;pi=true;ii=true}
-    - e:pl{p=spark;fromOrigin=;y=1}
+    - e:pl{p=spark;fromOrigin=;y=0.5}
     - e:p{p=crit_magic;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
