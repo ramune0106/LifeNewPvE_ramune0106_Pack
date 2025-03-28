@@ -75,7 +75,7 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
 OpenField_Weapon_フェアリースペルライトニング_ramune0106:
  Cooldown: 10
  Skills:
- - chain{m=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Bounce;b=7;hp=false;hnp=true}
+ - chain{m=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Bounce;b=7;hp=false;hnp=true} @EIR{r=32;limit=1}
 OpenField_Weapon_フェアリースペルライトニング_ramune0106_Bounce:
  Skills:
  - projectile{v=20;oH=OpenField_Weapon_フェアリースペルライトニング_ramune0106_BHit;oT=OpenField_Weapon_フェアリースペルライトニング_ramune0106_BTick;hp=false;hnp=true}
