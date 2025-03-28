@@ -72,7 +72,7 @@ OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing:
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
-OpenField_Weapon_フェアリースペルライトニング_ramune0106:
+OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
  Cooldown: 10
  Skills:
  - chain{m=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Bounce;b=7;hp=false;hnp=true} @EIR{r=32;limit=1}
