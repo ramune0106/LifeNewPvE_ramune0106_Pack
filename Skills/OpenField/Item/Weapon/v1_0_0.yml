@@ -72,8 +72,17 @@ OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing:
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
+
 OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
- Cooldown: 1
+ Skills:
+ - aura{
+   oe=[
+    - skill:OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End{lim=<skill.var.aura-stacks>} @self
+   ];
+   n=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;
+   i=1;t=20;rd=true;ms=5} @self
+
+OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End:
  Skills:
  - chain{
    m=[
@@ -81,4 +90,5 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
     - e:pl{p=spark;fromOrigin=true;y=0.5}
     - e:p{p=crit_magic;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
    ];
-   b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=2;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+   b=7;hp=false;hnp=true;r=8} @EIC{r=12;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+ - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
