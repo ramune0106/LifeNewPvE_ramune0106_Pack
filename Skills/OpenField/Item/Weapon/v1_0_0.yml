@@ -104,12 +104,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
   - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
   Skills:
-  - setVar{k=skill.count;a="<skill.var.aura-stacks>";t=INTEGER} @self
   - aura{
-      ot=[
-        - sound{s=block.trial_spawner.spawn_item;v=1} @self ?varrange{k=skill.count;r=>14}
-        - sound{s=block.trial_spawner.spawn_item;v=0.5;p=2} @self ?varrange{k=skill.count;r=>14}
-      ];
       oe=[
         - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper{lim=<skill.var.aura-stacks>} @self
       ];
