@@ -162,7 +162,9 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106:
  Id: Book
  Display: "フェアリースペル:ライトニング"
  Lore:
- - "一時的にその身に精霊を宿し、魔術を使用する。"
+ - "一時的にその身に精霊を宿す魔導書の一種"
+ - "少しの溜めの後、敵を連鎖する雷を召喚する"
+ - "溜めるほど連鎖の対象は多くなる。"
  Options:
   ItemVersion: 1
   Unbreakable: true
