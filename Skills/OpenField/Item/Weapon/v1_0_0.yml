@@ -106,15 +106,17 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
   Skills:
   - aura{
       os=[
+        - setVar{k=skill.count;a="<skill.var.aura-stacks>";t=INTEGER} @self
         - sound{s=block.trial_spawner.spawn_item;v=1} @self ?varrange{k=skill.count;r=>14}
         - sound{s=block.trial_spawner.spawn_item;v=0.5;p=2} @self ?varrange{k=skill.count;r=>14}
+        - message{m="<skill.var.aura-stacks>"} @self
       ];
       oe=[
         - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper{lim=<skill.var.aura-stacks>} @self
         - message{m="<skill.var.aura-stacks>"} @self
       ];
       n=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill;
-      i=1;t=10;rd=true;ms=12} @self
+      i=1;t=10;rd=true;ms=12;ow=true} @self
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper:
   Skills:
