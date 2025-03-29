@@ -102,9 +102,9 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
  Conditions:
  - varrange{k=skill.ho;r=<-5} false 
  Skills:
- - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{ho=<skill.var.ho>}
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{ho=<skill.var.ho>} @targetedTarget
  - setVar{skill.ho;a="<skill.var.ho> - 1";t=INTEGER}
- - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper @targetedTarget
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
  Skills:
@@ -115,4 +115,4 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
    oH=[
     - damage{a=2;pi=true;ii=true}
    ];
-   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} 
+   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} @targetedTarget
