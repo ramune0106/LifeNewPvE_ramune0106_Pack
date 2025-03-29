@@ -92,3 +92,10 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
+OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
+ Skills:
+ - volley{
+   oT=[
+    - e:p{p=totem_of_undying;a=20} @origin
+   ];
+   s=RAIN;a=20;pickup=false;t=ARROW}

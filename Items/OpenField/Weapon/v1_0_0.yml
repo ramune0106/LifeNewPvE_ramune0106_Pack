@@ -171,4 +171,16 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106:
  Group: 'Main-Weapon'
  Skills:
  - skill{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill} @self ~onUse
+OpenField_Weapon_フェアリースペルアローシャワー_ramune0106:
+ Id: Book
+ Display: "フェアリースペル:アローシャワー"
+ Lore:
+ - "一時的にその身に精霊を宿す魔導書の一種"
+ - "敵の頭上から大量の矢の雨を降らす"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill} @self ~onUse
 
