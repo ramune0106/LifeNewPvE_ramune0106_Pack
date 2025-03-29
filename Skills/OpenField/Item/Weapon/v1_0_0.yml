@@ -119,4 +119,4 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
       oh=[
         - damage{a=10;pi=true;ii=true}
       ];
-      s=RAIN;a=25;pickup=false;t=ARROW;hp=false;hnp=true;y=10;v=<random.10to15>;r=6;i=1} 
+      s=RAIN;a=25;pickup=false;t=ARROW;hp=false;hnp=true;y=10;v=<random.10to15>;r=6;i=1;e=30} 
