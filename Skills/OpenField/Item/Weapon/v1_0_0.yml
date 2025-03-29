@@ -116,7 +116,7 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
       oH=[
         - damage{a=2;pi=true;ii=true}
       ];
-      s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} @EIC{r=16;a=120;limit=1;sort=NEAREST;
+      s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.var.ho>;syo=10;v=30} @EIC{r=16;a=120;limit=1;sort=NEAREST;
       conditions=[
         - isLiving true
         - isMythicMob true
