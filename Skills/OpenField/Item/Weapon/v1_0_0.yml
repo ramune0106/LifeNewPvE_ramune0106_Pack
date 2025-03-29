@@ -103,7 +103,6 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
       ]}
   - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
-  Cooldown: 5
   Skills:
   - aura{
       oe=[
