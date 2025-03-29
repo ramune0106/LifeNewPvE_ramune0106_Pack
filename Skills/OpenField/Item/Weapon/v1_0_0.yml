@@ -121,5 +121,6 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
       ];
       s=RAIN;a=25;pickup=false;t=ARROW;hp=false;hnp=true;y=10;v=<random.10to15>;r=6;i=1;e=30} 
   - sound{s=entity.arrow.shoot;v=1} 
-  - delay 2
+  - delay 1
   - sound{s=entity.arrow.shoot;v=0.6;p=2}
+  - sound{s=entity.arrow.shoot;v=1;p=0} 0.6 
