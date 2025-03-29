@@ -113,6 +113,11 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
   Skills:
   - volley{
+      os=[
+        - sound{s=entity.arrow.shoot;v=1} @origin
+        - delay 2
+        - sound{s=entity.arrow.shoot;v=0.6;p=2} @origin
+      ];
       ot=[
         - e:p{p=totem_of_undying;a=20} @origin
       ];
