@@ -98,7 +98,7 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
    oT=[
     - e:p{p=totem_of_undying;a=20} @origin
    ];
-　 oH=[
+   oH=[
     - damage{a=2}
    ];
    s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
