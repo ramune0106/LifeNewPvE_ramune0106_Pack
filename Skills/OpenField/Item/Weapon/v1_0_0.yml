@@ -103,6 +103,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
       ]}
   - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
+  Cooldown: 5
   Skills:
   - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{repeat=8;repeati=4} @EIC{r=16;a=120;limit=1;sort=NEAREST;
       conditions=[
@@ -121,6 +122,6 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
       ];
       s=RAIN;a=25;pickup=false;t=ARROW;hp=false;hnp=true;y=10;v=<random.10to15>;r=6;i=1;e=30} 
   - sound{s=entity.arrow.shoot;v=1} 
-  - sound{s=entity.arrow.shoot;v=1;p=0} 0.6 
+  - sound{s=entity.arrow.shoot;v=1;p=0} 0.8
   - delay 1
   - sound{s=entity.arrow.shoot;v=0.6;p=2}
