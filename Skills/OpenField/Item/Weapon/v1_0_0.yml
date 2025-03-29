@@ -116,7 +116,7 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
         - message{m="<skill.var.aura-stacks>"} @self
       ];
       n=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill;
-      i=1;t=10;rd=true;ms=12;ow=true} @self
+      i=1;t=10;rd=true;ms=12;mc=true} @self
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper:
   Skills:
