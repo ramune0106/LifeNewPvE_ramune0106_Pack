@@ -109,6 +109,7 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
   Skills:
+  - setVar{n=skill.ho;a="<skill.var.ho> - 1";t=INTEGER} @self
   - volley{
       oT=[
         - e:p{p=totem_of_undying;a=20} @origin
@@ -121,4 +122,3 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
         - isLiving true
         - isMythicMob true
       ]}
-  - setVar{n=skill.ho;a="<skill.var.ho> - 1";t=INTEGER} @self
