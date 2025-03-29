@@ -95,7 +95,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
  Skills:
  - setVar{n=skill.ho;a="5";t=INTEGER} @self
- - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{repeat="<skill.var.ho> * 2";repeati=0} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{repeat="<skill.var.ho> * 2";repeati=0} @self
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
  Skills:
@@ -106,5 +106,5 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
    oH=[
     - damage{a=2;pi=true;ii=true}
    ];
-   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} 
+   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
 - setVar{n=skill.ho;a="<skill.var.ho> - 1";t=INTEGER} @self
