@@ -94,11 +94,25 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
  Skills:
+ - setVar{n=skill.ho;a="5";t=INTEGER} @self
+ - setVar{n=skill.rep;a="<skill.var.ho>";t=INTEGER} @self
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+
+OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper:
+ Conditions:
+ - varrange{k=skill.ho;r=<-5} false 
+ Skills:
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{ho=<skill.var.ho>}
+ - setVar{skill.ho;a="<skill.var.ho> - 1";t=INTEGER}
+ - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_wrapper
+
+OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
+ Skills:
  - volley{
    oT=[
     - e:p{p=totem_of_undying;a=20} @origin
    ];
    oH=[
-    - damage{a=2}
+    - damage{a=2;pi=true;ii=true}
    ];
-   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} 
