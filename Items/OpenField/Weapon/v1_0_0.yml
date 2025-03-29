@@ -182,5 +182,5 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106:
   Unbreakable: true
  Group: 'Main-Weapon'
  Skills:
- - skill{s=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill} @self ~onUse
+ - skill{s=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill} @TL ~onUse
 
