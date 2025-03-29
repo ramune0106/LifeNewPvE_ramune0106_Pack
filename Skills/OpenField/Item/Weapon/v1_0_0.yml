@@ -17,94 +17,108 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
   - setFallDistance{a=0;repeati=5;repeat=80} @self
   - projectile{v=8;hn=1;oT=OpenField_Weapon_サイクロンアロー_ramune0106_Tick2;oH=OpenField_Weapon_サイクロンアロー_ramune0106_Hit2;hp=true;hnp=true} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
- Cooldown: 1
- Skills:
- - damage{a=10;pi=true;cause=magic} @target
+  Cooldown: 1
+  Skills:
+  - damage{a=10;pi=true;cause=magic} @target
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
- Cooldown: 0.3
- Skills:
- - projectile{v=20;sfo=1;syo=1.2;d=35;mr=100;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick;hp=true;hnp=true} @tl
+  Cooldown: 0.3
+  Skills:
+  - projectile{v=20;sfo=1;syo=1.2;d=35;mr=100;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick;hp=true;hnp=true} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
- Cooldown: 30
- Skills:
- - summon{a=1;t=OpenField_Util_ホログラムダガー_Dummy_ramune0106} 
+  Cooldown: 30
+  Skills:
+  - summon{a=1;t=OpenField_Util_ホログラムダガー_Dummy_ramune0106}
 OpenField_Weapon_迅雷ノ槍_ramune0106_onSwing:
- Cooldown: 0.8
- Skills:
- - lunge{velocity=2;vy=0} @Self
- - e:sound{s=entity.generic.explode;v=0.5} @self
- - potion{t=RESISTANCE;l=;d=30}
+  Cooldown: 0.8
+  Skills:
+  - lunge{velocity=2;vy=0} @Self
+  - e:sound{s=entity.generic.explode;v=0.5} @self
+  - potion{t=RESISTANCE;l=;d=30}
 OpenField_Weapon_迅雷ノ槍改_ramune0106_onSwing:
- Cooldown: 0.8
- Skills:
- - lunge{velocity=2;vy=0.5} @Self
- - e:sound{s=entity.generic.explode;v=0.5} @self
- - potion{t=RESISTANCE;l=4;d=30}
+  Cooldown: 0.8
+  Skills:
+  - lunge{velocity=2;vy=0.5} @Self
+  - e:sound{s=entity.generic.explode;v=0.5} @self
+  - potion{t=RESISTANCE;l=4;d=30}
 OpenField_Weapon_オービットランタンB_ramune0106_Skill:
- Cooldown: 1
- Skills:
- - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106}
+  Cooldown: 1
+  Skills:
+  - summon{a=1;t=OpenField_Weapon_オービットランタンB_Lantern_ramune0106}
 OpenField_Weapon_オービットランタンA_ramune0106_Skill:
- Cooldown: 1
- Skills:
- - summon{a=1;t=OpenField_Weapon_オービットランタンA_Lantern_ramune0106}
+  Cooldown: 1
+  Skills:
+  - summon{a=1;t=OpenField_Weapon_オービットランタンA_Lantern_ramune0106}
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
- Cooldown: 0.25
- Skills:
- - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
-    oP=[ - effect:particles{p=witch;a=10} ];
-    oH=[ - damage{a=4} ]
-    }
- - sound{s=minecraft:entity.player.attack.sweep}
- - sound{s=entity.ghast.shoot}
+  Cooldown: 0.25
+  Skills:
+  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+      oP=[
+        - effect:particles{p=witch;a=10}
+      ];
+      oH=[
+        - damage{a=4}
+      ]}
+  - sound{s=minecraft:entity.player.attack.sweep}
+  - sound{s=entity.ghast.shoot}
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
 OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing:
- Cooldown: 0.15
- Skills:
- - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
-    oP=[ - effect:particles{p=item_snowball;a=10} ];
-    oH=[ - damage{a=2} ]
-    }
- - sound{s=minecraft:entity.player.attack.sweep}
- - sound{s=block.glass.break}
+  Cooldown: 0.15
+  Skills:
+  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+      oP=[
+        - effect:particles{p=item_snowball;a=10}
+      ];
+      oH=[
+        - damage{a=2}
+      ]}
+  - sound{s=minecraft:entity.player.attack.sweep}
+  - sound{s=block.glass.break}
 OpenField_Weapon_銘刀陽炎壱_ramune0106_onUse:
  Cooldown: 10
  Skills:
 
 OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill:
- Skills:
- - aura{
-   oe=[
-    - skill:OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End{lim=<skill.var.aura-stacks>} @self
-   ];
-   n=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;
-   i=1;t=10;rd=true;ms=5} @self
+  Skills:
+  - aura{
+      oe=[
+        - skill:OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End{lim=<skill.var.aura-stacks>} @self
+      ];
+      n=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;
+      i=1;t=10;rd=true;ms=5} @self
 
 OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End:
- Skills:
- - chain{
-   m=[
-    - e:pl{p=spark;fromOrigin=true;y=0.5}
-    - e:p{p=flame;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
-    - damage{a=3;pi=true;ii=true}
-   ];
-   b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
- - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
+  Skills:
+  - chain{
+      m=[
+        - e:pl{p=spark;fromOrigin=true;y=0.5}
+        - e:p{p=flame;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
+        - damage{a=3;pi=true;ii=true}
+      ];
+      b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;
+      conditions=[
+        - isLiving true
+        - isMythicMob true
+      ]}
+  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
- Skills:
- - setVar{n=skill.ho;a="5";t=INTEGER} @self
- - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{repeat="<skill.var.ho> * 2";repeati=0} @self
+  Skills:
+  - setVar{n=skill.ho;a="5";t=INTEGER} @self
+  - skill:OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process{repeat="<skill.var.ho> * 2";repeati=0} @self
 
 OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_Process:
- Skills:
- - volley{
-   oT=[
-    - e:p{p=totem_of_undying;a=20} @origin
-   ];
-   oH=[
-    - damage{a=2;pi=true;ii=true}
-   ];
-   s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
-- setVar{n=skill.ho;a="<skill.var.ho> - 1";t=INTEGER} @self
+  Skills:
+  - volley{
+      oT=[
+        - e:p{p=totem_of_undying;a=20} @origin
+      ];
+      oH=[
+        - damage{a=2;pi=true;ii=true}
+      ];
+      s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true;ho=<skill.ho>;syo=10;v=30} @EIC{r=16;a=120;limit=1;sort=NEAREST;
+      conditions=[
+        - isLiving true
+        - isMythicMob true
+      ]}
+  - setVar{n=skill.ho;a="<skill.var.ho> - 1";t=INTEGER} @self
