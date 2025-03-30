@@ -183,4 +183,15 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106:
  Group: 'Main-Weapon'
  Skills:
  - skill{s=OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill} @self ~onUse
-
+OpenField_Weapon_Finale_ramune0106:
+ Id: Blaze_Rod
+ Display: "&l&5Finale"
+ Lore:
+ - "自身の命を犠牲に、周囲のプレイヤーに絶大なバフを与える"
+ - "儚くも美しい旋律"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Sub_Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_Finale_ramune0106_Skill} @self ~onUse

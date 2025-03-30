@@ -102,3 +102,10 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill:
     - damage{a=2}
    ];
    s=RAIN;a=20;pickup=false;t=ARROW;hp=false;hnp=true} @EIC{r=16;a=120;limit=1;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
+OpenField_Weapon_Finale_ramune0106_Skill:
+ Skills:
+ - potion{t=HEALTH_BOOST;d=600;l=4} @PIR{r=15}
+ - potion{t=STRENGTH;d=600;l=4} @PIR{r=15}
+ - potion{t=RESISTANCE;d=600;l=1} @PIR{r=15}
+ - potion{t=JUMP_BOOST;d=600;l=2} @PIR{r=15}
+ - potion{t=SPEED;d=600;l=4} @PIR{r=15}
