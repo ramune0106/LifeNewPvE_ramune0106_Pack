@@ -136,9 +136,3 @@ OpenField_Weapon_Finale_ramune0106_Skill:
       oD=[
         - message{m="&l&5<caster.name>の演奏は終幕を迎えた"} @PIR{r=30;targetself=true}
         ];}
-
-OpenField_Weapon_フェアリースペルフレイムサイクロン_ramune0106_Skill:
- Skills:
- - effect:particletornado{mr=2;yo=2;h=1;p=flame;a=50} @tl
- - sound{s=entity.ghast.shoot} @self
- - sound{s=item.elytra.flying} @self

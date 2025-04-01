@@ -195,17 +195,3 @@ OpenField_Weapon_Finale_ramune0106:
  Group: 'Sub_Weapon'
  Skills:
  - skill{s=OpenField_Weapon_Finale_ramune0106_Skill} @self ~onUse
-
-OpenField_Weapon_フェアリースペルフレイムサイクロン_ramune0106:
- Id: Book
- Display: "フェアリースペル:フレイムサイクロン"
- Lore:
- - "一時的にその身に精霊を宿す魔導書の一種"
- - "敵を炎の渦に巻き込む"
- Options:
-  ItemVersion: 1
-  Unbreakable: true
- Group: 'Main-Weapon'
- Skills:
- - skill{s=OpenField_Weapon_フェアリースペルフレイムサイクロン_ramune0106_Skill} @self ~onUse
-
