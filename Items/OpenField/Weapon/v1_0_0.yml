@@ -195,3 +195,4 @@ OpenField_Weapon_Finale_ramune0106:
  Group: 'Sub_Weapon'
  Skills:
  - skill{s=OpenField_Weapon_Finale_ramune0106_Skill} @self ~onUse
+
