@@ -139,6 +139,6 @@ OpenField_Weapon_Finale_ramune0106_Skill:
 
 OpenField_Weapon_フェアリースペルフレイムサイクロン_ramune0106_Skill:
  Skills:
- - effect:particletornado{mr=2;p=flame;a=50}
+ - effect:particletornado{mr=2;p=flame;a=50} @tl
  - sound{s=entity.ghast.shoot} @self
- - sound{s=}
+ - sound{s=item.elytra.flying} @self
