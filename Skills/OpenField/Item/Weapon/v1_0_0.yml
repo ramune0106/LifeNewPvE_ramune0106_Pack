@@ -132,3 +132,7 @@ OpenField_Weapon_Finale_ramune0106_Skill:
  - potion{t=SPEED;d=300;l=3} @PIR{r=8}
  - delay 1
  - heal{a=-10000} @self
+ - ondeath{
+      oD=[
+        - message{m="&l&5<caster.name>の演奏は終幕を迎えた"} @PIR{r=30;targetself=true}
+        ];}
