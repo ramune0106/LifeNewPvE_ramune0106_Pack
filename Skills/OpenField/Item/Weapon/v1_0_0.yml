@@ -127,8 +127,8 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
   - sound{s=entity.arrow.shoot;v=0.6;p=2}
 OpenField_Weapon_Finale_ramune0106_Skill:
  Skills:
- - potion{t=HEALTH_BOOST;d=600;l=4} @PIR{r=15}
- - potion{t=STRENGTH;d=600;l=4} @PIR{r=15}
- - potion{t=RESISTANCE;d=600;l=1} @PIR{r=15}
- - potion{t=JUMP_BOOST;d=600;l=2} @PIR{r=15}
- - potion{t=SPEED;d=600;l=3} @PIR{r=15}
+ - potion{t=STRENGTH;d=300;l=4} @PIR{r=8}
+ - potion{t=JUMP_BOOST;d=300;l=2} @PIR{r=8}
+ - potion{t=SPEED;d=300;l=3} @PIR{r=8}
+ - delay 1
+ - heal{a=-10000} @self
