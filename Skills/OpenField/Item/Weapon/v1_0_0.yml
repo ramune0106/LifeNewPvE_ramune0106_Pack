@@ -147,4 +147,4 @@ OpenField_Weapon_マジックボウ_ramune0106_Skill:
         - e:p{p=end_rod;a=50} 
         ];
       } @tl
- - sound{s=entity.experience_orb.pickup;repeat=6;repeati=3} @self
+ - sound{s=entity.experience_orb.pickup;repeat=4;repeati=2} @self
