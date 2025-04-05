@@ -139,7 +139,7 @@ OpenField_Weapon_Finale_ramune0106_Skill:
 
 OpenField_Weapon_マジックボウ_ramune0106_Skill:
  Skills:
- - projectile{i=1;v=40;sfo=1;syo=1;d=100;repeat=6;repeati=3;hp=true;hnp=true;
+ - projectile{i=1;v=40;sfo=1;syo=1;d=100;repeat=4;repeati=2;hp=true;hnp=true;
       oH=[
         - damage{a=7}
         ];
