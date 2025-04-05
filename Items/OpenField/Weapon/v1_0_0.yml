@@ -195,3 +195,15 @@ OpenField_Weapon_Finale_ramune0106:
  Group: 'Sub_Weapon'
  Skills:
  - skill{s=OpenField_Weapon_Finale_ramune0106_Skill} @self ~onUse
+
+OpenField_Weapon_マジックボウ_ramune0106:
+ Id: Bow
+ Display: "&l&fマジックボウ"
+ Lore:
+ - "&l&5弓を射るとともに魔力の弾丸を発射する弓"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_マジックボウ_ramune0106_Skill} @self ~onShootbow 

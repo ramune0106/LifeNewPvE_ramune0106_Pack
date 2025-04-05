@@ -23,7 +23,7 @@ OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
  Cooldown: 0.3
  Skills:
- - projectile{v=20;sfo=1;syo=1.2;d=35;mr=100;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick;hp=true;hnp=true} @tl
+ - projectile{i=0.5;v=20;sfo=1;syo=1.2;d=35;mr=100;oH=OpenField_Weapon_ホログラムダガー_ramune0106_PonHit;oT=OpenField_Weapon_ホログラムダガー_ramune0106_onTick;hp=true;hnp=true} @tl
 OpenField_Weapon_ホログラムダガー_ramune0106_onUse:
  Cooldown: 30
  Skills:
@@ -136,3 +136,7 @@ OpenField_Weapon_Finale_ramune0106_Skill:
       oD=[
         - message{m="&l&5<caster.name>の演奏は終幕を迎えた"} @PIR{r=30;targetself=true}
         ];}
+
+OpenField_Weapon_マジックボウ_ramune0106_Skill:
+ Skills:
+ - projectile{}
