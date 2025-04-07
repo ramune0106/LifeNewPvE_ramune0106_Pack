@@ -159,6 +159,6 @@ OpenField_Weapon_GalasBlade_ramune0106_Skill:
      }
 OpenField_Weapon_GlassBlade_ramune0106_Break:
  Skills:
- - aura{n=GlassBlade_Break;d=1200} @self
+ - aura{n=GlassBlade_Break;d=60} @self
  - sound{s=block.glass.break} @self
  - e:p{t=Block;m=GLASS;a=10} @self
