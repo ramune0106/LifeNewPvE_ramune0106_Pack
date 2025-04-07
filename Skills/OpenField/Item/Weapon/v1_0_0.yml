@@ -148,3 +148,17 @@ OpenField_Weapon_マジックボウ_ramune0106_Skill:
         ];
       } @tl
  - sound{s=entity.experience_orb.pickup;repeat=3;repeati=1} @self
+
+OpenField_Weapon_GalasBlade_ramune0106_Skill:
+ Conditions:
+ - hasAura{n=GlassBlade_Break} false
+ Skills:
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;repeat=4;repeati=1;
+    oP=[ - effect:particles{p=Block;m=GLASS;a=10} ];
+    oH=[ - damage{a=3} ]
+     }
+OpenField_Weapon_GlassBlade_ramune0106_Break:
+ Skills:
+ - aura{n=GlassBlade_Break;d=1200} @self
+ - sound{s=block.glass.break} @self
+ - e:p{t=Block;m=GLASS;a=10} @self

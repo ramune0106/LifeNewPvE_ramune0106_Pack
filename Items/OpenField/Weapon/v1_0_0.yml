@@ -207,3 +207,17 @@ OpenField_Weapon_マジックボウ_ramune0106:
  Group: 'Main-Weapon'
  Skills:
  - skill{s=OpenField_Weapon_マジックボウ_ramune0106_Skill} @self ~onShootbow 
+
+OpenField_Weapon_GalasBlade_ramune0106:
+ Id: Diamond_Sword
+ Display: "GalasBlade"
+ Lore:
+ - "ガラスでできた剣"
+ - "とても鋭いが脆い"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_GalasBlade_ramune0106_Skill} @self ~onUse
+ - skill{s=OpenField_Weapon_GlassBlade_ramune0106_Break} @self ~onDamaged
