@@ -155,7 +155,7 @@ OpenField_Weapon_GalasBlade_ramune0106_Skill:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;repeat=4;repeati=1;
     oP=[ - effect:particles{p=Block;m=GLASS;a=10} ];
-    oH=[ - damage{a=3} ]
+    oH=[ - damage{a=3} ];
      }
 OpenField_Weapon_GlassBlade_ramune0106_Break:
  Skills:
