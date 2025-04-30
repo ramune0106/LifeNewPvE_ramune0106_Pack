@@ -221,3 +221,32 @@ OpenField_Weapon_GalasBlade_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_GalasBlade_ramune0106_Skill} @self ~onUse
  - skill{s=OpenField_Weapon_GlassBlade_ramune0106_Break} @self ~onDamaged
+
+OpenField_Weapon_禁術書チェーンバインド_ramune0106:
+ Id: Enchanted_Book
+ Display: "禁術書:チェーンバインド"
+ Lore:
+ - "禁じられた魔法が書き込まれた魔術書"
+ - "敵一体の魂を魔術の鎖で呪縛し、行動を制限する"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_禁術書チェーンバインド_ramune0106_Skill} @self ~onUse
+
+OpenField_Weapon_StellarRetaliator_ramune0106:
+ Id: Diamond_Sword
+ Display: "&ka&r&o&l&5Stellar &9Retaliator&ka&r"
+ Lore:
+ - "数多もの星の力を宿す剣"
+ - "星屑を操ることが可能"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_StellarRetaliator_ramune0106_Swing} @self ~onSwing
+ - skill{s=OpenField_Weapon_StellarRetaliator_ramune0106_Use} @self ~onUse
+
+

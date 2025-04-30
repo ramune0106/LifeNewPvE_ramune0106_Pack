@@ -162,3 +162,27 @@ OpenField_Weapon_GlassBlade_ramune0106_Break:
  - aura{n=GlassBlade_Break;d=60} @self
  - sound{s=block.glass.break} @self
  - e:p{t=Block;m=GLASS;a=10} @self
+
+OpenField_Weapon_禁術書チェーンバインド_ramune0106_Skill:
+ Skills:
+ - stun{ai=true;kb=true;d=200} @target{limit=1}
+
+OpenField_Weapon_StellarRetaliator_ramune0106_Swing:
+ Skills:
+ - projectile{i=1;v=40;sfo=1;syo=1;d=100;repeat=3;repeati=1;hp=true;hnp=true;
+      oH=[
+        - damage{a=4}
+        ];
+      oT=[
+        - e:p{p=enchanted_hit;a=50}
+        - e:p{p=witch;a=50} 
+        ];
+      } @target
+OpenField_Weapon_StellarRetaliator_ramune0106_Use:
+ Skills:
+ - ondamaged{cE=true;
+      auraName=damageParry;d=2;
+      oD=[
+        - sound{s=block.smithing_table.use}
+      ]
+ }
