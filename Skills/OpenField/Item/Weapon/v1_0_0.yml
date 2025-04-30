@@ -183,6 +183,6 @@ OpenField_Weapon_StellarRetaliator_ramune0106_Use:
  - ondamaged{cE=true;
       auraName=damageParry;d=2;
       oD=[
-        - sound{s=block.smithing_table.use}
-      ]
+        - sound{s=block.smithing_table.use} @self
+      ];
  }
