@@ -162,11 +162,7 @@ OpenField_Weapon_GlassBlade_ramune0106_Break:
  - aura{n=GlassBlade_Break;d=60} @self
  - sound{s=block.glass.break} @self
  - e:p{t=Block;m=GLASS;a=10} @self
-
-OpenField_Weapon_禁術書チェーンバインド_ramune0106_Skill:
- Skills:
- - stun{ai=true;kb=true;d=200} @target{limit=1}
-
+ 
 OpenField_Weapon_流星群の杖_ramune0106_Skill:
  Skills:
  - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;
