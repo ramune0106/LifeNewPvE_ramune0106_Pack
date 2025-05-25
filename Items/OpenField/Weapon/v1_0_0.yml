@@ -249,4 +249,16 @@ OpenField_Weapon_StellarRetaliator_ramune0106:
  - skill{s=OpenField_Weapon_StellarRetaliator_ramune0106_Swing} @self ~onSwing
  - skill{s=OpenField_Weapon_StellarRetaliator_ramune0106_Use} @self ~onUse
 
+OpenField_Weapon_流星群の杖_ramune0106:
+ Id:
+ Display: "流星群の杖"
+ Lore:
+ - "てすと"
+ Options:
+  ItemVersion: 1
+  Unbreakable: true
+ Group: 'Main-Weapon'
+ Skills:
+ - skill{s=OpenField_Weapon_流星群の杖_ramune0106_Skill} @self ~onSwing
+
 
