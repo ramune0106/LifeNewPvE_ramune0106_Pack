@@ -250,10 +250,11 @@ OpenField_Weapon_StellarRetaliator_ramune0106:
  - skill{s=OpenField_Weapon_StellarRetaliator_ramune0106_Use} @self ~onUse
 
 OpenField_Weapon_流星群の杖_ramune0106:
- Id:
+ Id: Blaze_Rod
  Display: "流星群の杖"
  Lore:
- - "てすと"
+ - "流れ星の欠片が埋め込まれた杖"
+ - "自身の頭上から数多の星を敵に放つ"
  Options:
   ItemVersion: 1
   Unbreakable: true
