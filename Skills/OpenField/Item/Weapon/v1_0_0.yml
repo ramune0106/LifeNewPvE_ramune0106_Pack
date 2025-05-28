@@ -168,8 +168,10 @@ OpenField_Weapon_流星群の杖_ramune0106_Skill:
  - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;
       oH=[
         - damage{a=4}
+        - e:p{p=spark;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
         ];
       oT=[
         - e:p{p=end_rod;a=50} 
+        - sound{s=entity.experience_orb.pickup}
         ];
       } @EIR{r=10;limit=1;sort=RANDOM;ignore=players}
