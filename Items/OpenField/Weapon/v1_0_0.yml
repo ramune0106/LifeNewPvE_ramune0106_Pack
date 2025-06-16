@@ -262,4 +262,28 @@ OpenField_Weapon_流星群の杖_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_流星群の杖_ramune0106_Skill} @self ~onSwing
 
+OpenField_Weapon_Ramuneoff1_ramune0106:
+ Id: Diamond_Sword
+ Display: "&5&l冥き&b&lを&6&l切り裂く&e&l光の翼"
+ Lore:
+ - "&e&lその光は暗闇を砕き"
+ - "&6&l黄昏の如く"
+ - "&5&l絶望を切り裂く希望となろう"
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    Unbreakable: true
+ Attributes:
+  OffHand:
+    Damage: 60% ADD
+    AttackSpeed: 40% ADD
+    MovementSpeed: 60% ADD
+    Health: 12 ADD
+ Enchantments:
+ Group: 'Armor'
+ NBT:
+  PublicBukkitValues:
+    lifenewpve:max_mana: "250"
+
 
