@@ -19,7 +19,7 @@ OpenField_Weapon_サイクロンアロー_ramune0106_Skills:
 OpenField_Weapon_ホログラムダガー_ramune0106_onHit:
  Cooldown: 1
  Skills:
- - damage{a=10;pi=true;cause=magic} @target
+ - damage{a=10;pi=true;cause=magic;*<rcbuff.gray>*<rcbuff.level>;pi=true;type=gray} @target
 OpenField_Weapon_ホログラムダガー_ramune0106_onSwing:
  Cooldown: 0.3
  Skills:
@@ -53,7 +53,7 @@ OpenField_Weapon_銘刀陽炎壱_ramune0106_onSwing:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
     oP=[ - effect:particles{p=witch;a=10} ];
-    oH=[ - damage{a=4} ]
+    oH=[ - damage{a=4;*<rcbuff.red>*<rcbuff.level>} ]
     }
  - sound{s=minecraft:entity.player.attack.sweep}
  - sound{s=entity.ghast.shoot}
@@ -65,7 +65,7 @@ OpenField_Weapon_銘刀吹雪壱_ramune0106_onSwing:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
     oP=[ - effect:particles{p=item_snowball;a=10} ];
-    oH=[ - damage{a=2} ]
+    oH=[ - damage{a=2;*<rcbuff.blue>*<rcbuff.level>} ]
     }
  - sound{s=minecraft:entity.player.attack.sweep}
  - sound{s=block.glass.break}
@@ -88,7 +88,7 @@ OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill_End
    m=[
     - e:pl{p=spark;fromOrigin=true;y=0.5}
     - e:p{p=flame;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
-    - damage{a=3;pi=true;ii=true}
+    - damage{a=3;pi=true;ii=true;*<rcbuff.gray>*<rcbuff.level>}
    ];
    b=7;hp=false;hnp=true;r=8} @EIC{r=16;a=120;limit=<skill.lim>;sort=NEAREST;conditions=[ - isLiving true - isMythicMob true ]}
  - setSkillCooldown{s=OpenField_Weapon_フェアリースペルライトニング_ramune0106_Skill;cd=5} @self
@@ -117,7 +117,7 @@ OpenField_Weapon_フェアリースペルアローシャワー_ramune0106_Skill_
         - e:p{p=totem_of_undying;a=20} @origin
       ];
       oh=[
-        - damage{a=10;pi=true;ii=true}
+        - damage{a=10;pi=true;ii=true;*<rcbuff.gray>*<rcbuff.level>}
         - sound{s=entity.arrow.hit_player}
       ];
       s=RAIN;a=25;pickup=false;t=ARROW;hp=false;hnp=true;y=10;v=<random.10to15>;r=6;i=1;e=30} 
@@ -141,7 +141,7 @@ OpenField_Weapon_マジックボウ_ramune0106_Skill:
  Skills:
  - projectile{i=1;v=40;sfo=1;syo=1;d=100;repeat=3;repeati=1;hp=true;hnp=true;
       oH=[
-        - damage{a=7}
+        - damage{a=7;*<rcbuff.gray>*<rcbuff.level>}
         ];
       oT=[
         - e:p{p=end_rod;a=50} 
@@ -155,7 +155,7 @@ OpenField_Weapon_GalasBlade_ramune0106_Skill:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;repeat=4;repeati=1;
     oP=[ - effect:particles{p=Block;m=GLASS;a=10} ];
-    oH=[ - damage{a=3} ];
+    oH=[ - damage{a=3;*<rcbuff.gray>*<rcbuff.level>} ];
      }
 OpenField_Weapon_GlassBlade_ramune0106_Break:
  Skills:
@@ -167,7 +167,7 @@ OpenField_Weapon_流星群の杖_ramune0106_Skill:
  Skills:
  - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;
       oH=[
-        - damage{a=4}
+        - damage{a=4;*<rcbuff.white>*<rcbuff.level>}
         - e:p{p=spark;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
         - sound{s=entity.generic.explode} @self
         ];
@@ -176,3 +176,5 @@ OpenField_Weapon_流星群の杖_ramune0106_Skill:
         - sound{s=entity.experience_orb.pickup} @self
         ];
       } @EIR{r=10;limit=1;sort=RANDOM;ignore=players}
+
+OpenField_Weapon_煌剣フローライト_ramune0106
