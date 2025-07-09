@@ -165,7 +165,7 @@ OpenField_Weapon_GlassBlade_ramune0106_Break:
 
 OpenField_Weapon_流星群の杖_ramune0106_Skill:
  Skills:
- - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;
+ - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;cd=5;
       oH=[
         - damage{a="4"*<rcbuff.white>*<rcbuff.level>}
         - e:p{p=spark;a=15;s=0.5;vs=0.25;hs=0.25;y=1}
