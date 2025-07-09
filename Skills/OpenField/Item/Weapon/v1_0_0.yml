@@ -165,7 +165,7 @@ OpenField_Weapon_GlassBlade_ramune0106_Break:
 
 OpenField_Weapon_流星群の杖_ramune0106_Skill:
  Conditions:
- - mmir{a=>1;r=10} true
+ - livinginradius{a=<1;r=10} true
  Skills:
  - projectile{i=1;v=40;sfo=1;syo=7;d=100;repeat=15;repeati=7;hp=false;hnp=true;cd=5;S
       oH=[
