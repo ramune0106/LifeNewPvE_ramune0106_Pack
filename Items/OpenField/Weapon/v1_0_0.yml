@@ -285,13 +285,3 @@ OpenField_Weapon_Ramuneoff1_ramune0106:
  NBT:
   PublicBukkitValues:
     lifenewpve:max_mana: "250"
-
-OpenField_Weapon_煌剣フローライト_ramune0106:
- Id: Golden_Sword
- Display:&6&l煌剣&a&lフローライト
- Lore:
- - 蛍石をあしらった装飾が施された剣
- - 微かな輝きを放っている
- 
-
-
