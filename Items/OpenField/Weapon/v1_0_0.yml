@@ -285,3 +285,9 @@ OpenField_Weapon_Ramuneoff1_ramune0106:
  NBT:
   PublicBukkitValues:
     lifenewpve:max_mana: "250"
+
+OpenField_Weapon_裂幻の神刀_ramune0106:
+ Id: Diamond_Sword
+ Display: 裂幻の神刀
+ Lore:
+ - ""

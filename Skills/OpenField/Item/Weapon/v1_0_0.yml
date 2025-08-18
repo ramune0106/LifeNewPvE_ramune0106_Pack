@@ -178,3 +178,22 @@ OpenField_Weapon_流星群の杖_ramune0106_Skill:
         - sound{s=entity.experience_orb.pickup} @self
         ];
       } @EIR{r=10;limit=1;sort=RANDOM;ignore=players}
+
+Openfield_Weapon_裂幻の神刀_ramune0106_Swing:
+ Skills:
+ - slash{y=2.3;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=6;cd=0.5
+    oP=[ - effect:particles{p=;a=10} ];
+    oH=[ - damage{a="4*<rcbuff.white>*<rcbuff.level>"} ]
+    }
+ - aura{n="ramuneweapon_sword1_aura"}
+Openfield_Weapon_裂幻の神刀_ramune0106_Use1:
+ Conditions:
+ - hasAura{n="ramuneweapon_sword1_aura"} false
+ Skills:
+ - damage{a=7} @self
+ - aura{"ramuneweapon_sword1_aura"}
+OpenField_Weapon_裂幻の神刀_ramune0106_Use2:
+ Conditions:
+ - hasAura{n="ramuneweapon_sword1_aura"} true
+ Skills:
+ - 
