@@ -196,4 +196,4 @@ OpenField_Weapon_裂幻の神刀_ramune0106_Use2:
  Conditions:
  - hasAura{n="ramuneweapon_sword1_aura"} true
  Skills:
- - 
+ - lightning{d=6;repeat=10;repeati=10;cd=30} @RLO{a=1;r=6;}
