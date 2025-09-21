@@ -290,4 +290,24 @@ OpenField_Weapon_裂幻の神刀_ramune0106:
  Id: Diamond_Sword
  Display: 裂幻の神刀
  Lore:
- - ""
+ - "あ"
+ Options:
+    Destroy: false
+    CancelDamage: true
+    ItemVersion: 1
+    Unbreakable: true
+ Attributes:
+   MainHand:
+    Damage: 60% ADD
+    AttackSpeed: 40% ADD
+    MovementSpeed: 60% ADD
+    Health: 4 ADD
+ Enchantments:
+ Group: 'Main-Weapon'
+ NBT:
+  PublicBukkitValues:
+    lifenewpve:max_mana: "150"
+ Skills:
+ - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Swing} ~onSwing
+ - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Use1} ~onUse
+ - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Use2} ~onUse
