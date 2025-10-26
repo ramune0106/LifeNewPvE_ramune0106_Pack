@@ -315,11 +315,7 @@ OpenField_Weapon_裂幻の神刀_ramune0106:
 OpenField_Weapon_SimpleSword_ramune0106:
  Id: Iron_Sword
  Display: "&7&lシンプルソード"
- Lore:
- - "シンプルに造形された剣"
- - "右クリック:突き"
- - "左クリック:切り払い"
- - "&l&lコンボアーツ&r&8:&r&7&l突き-切り払い"
+ Lore: "あ"
  Options:
   ItemVersion: 1
   Unbreakable: true
