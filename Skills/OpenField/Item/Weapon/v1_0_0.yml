@@ -197,3 +197,6 @@ OpenField_Weapon_裂幻の神刀_ramune0106_Use2:
  - hasAura{n="ramuneweapon_sword1_aura"} true
  Skills:
  - lightning{d=6;repeat=10;repeati=10;cd=30} @RLO{a=1;r=6;}
+
+OpenField_Weapon_SimpleSword_ramune0106_Swing:
+ - effect:particles{particle=flame;amount=100;shape=cone;coneAngle=30;coneLength=5;hS=0.5;vS=0.5;speed=0.1}
