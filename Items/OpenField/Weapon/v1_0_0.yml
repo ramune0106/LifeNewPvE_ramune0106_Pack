@@ -311,6 +311,7 @@ OpenField_Weapon_裂幻の神刀_ramune0106:
  - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Swing} ~onSwing
  - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Use1} ~onUse
  - skill{s=Openfield_Weapon_裂幻の神刀_ramune0106_Use2} ~onUse
+
 OpenField_Weapon_SimpleSword_ramune0106:
  Id: Iron_Sword
  Display: "&7&lシンプルソード"
