@@ -213,7 +213,7 @@ TestSword_ramune0106_SwingF:
          - skill{s=RamuneFairy_chase}
     ]
     }
- - sound{s=minecraft:entity.player.attack.sweep}
+ - sound{s=minecraft:entity.player.attack.sweep} @self
 
 TestSword_ramune0106_Swing:
  Skills:
@@ -222,14 +222,14 @@ TestSword_ramune0106_Swing:
     ];
     oH=[ - damage{a="4"*<rcbuff.white>*<rcbuff.level>} ]
     }
- - sound{s=minecraft:entity.player.attack.sweep}
+ - sound{s=minecraft:entity.player.attack.sweep} @self
 
 RamuneFairy_chase:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
-    oP=[ - effect:particles{p=totem_of_undying;a=10} 
+    oP=[ - effect:particles{p=red_dust;c=#81fff9;a=10} 
     ];
     oH=[ - damage{a="4"*<rcbuff.white>*<rcbuff.level>} ]
     }
- - sound{s=minecraft:entity.player.attack.sweep}
+ - sound{s=entity.experience_orb.pickup} @self
 
