@@ -327,3 +327,18 @@ OpenField_Weapon_SimpleSword_ramune0106:
  Skills:
  - skill{s=OpenField_Weapon_SimpleSword_ramune0106_Swing} @self ~onSwing
  - skill{s=OpenField_Weapon_SimpleSword_ramune0106_Use} @self ~onUse
+
+TestSword_ramune0106:
+ Id: Diamond_Sword
+ Display: "精霊鍵・白銀"
+ Lore:
+ - "幻の精霊が宿る剣"
+ - "精霊を呼び出し、加護を受けて戦闘することができる"
+ - "左クリック:斬撃"
+ - "前方に斬撃を繰り出す"
+ - "右クリック:剣精召喚"
+ - "剣に宿る精霊を召喚し、加護を受ける"
+ - "斬撃の性能が変化し、さらに一定時間追撃を与える"
+ Skills:
+ - skill{s=TestSword_ramune0106_Swing} ~onSwing
+ - skill{s=TestSword_ramune0106_Use} ~onUse

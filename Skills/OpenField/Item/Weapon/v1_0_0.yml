@@ -200,3 +200,36 @@ OpenField_Weapon_裂幻の神刀_ramune0106_Use2:
 
 OpenField_Weapon_SimpleSword_ramune0106_Swing:
  - e:p{p=end_rod;a=50} @Cone{a=45;r=10;p=200}
+
+TestSword_ramune0106_SwingF:
+ Conditions:
+ - hasAura{n=Ramune_hasFairy1} castinstead TestSword_ramune0106_Swing
+ Skills:
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+    oP=[ - effect:particles{p=enchant;a=10} 
+         - effect:particles{p=totem_of_undying;a=10} 
+    ];
+    oH=[ - damage{a="5"*<rcbuff.white>*<rcbuff.level>} 
+         - skill{s=RamuneFairy_chase}
+    ]
+    }
+ - sound{s=minecraft:entity.player.attack.sweep}
+
+TestSword_ramune0106_Swing:
+ Skills:
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+    oP=[ - effect:particles{p=totem_of_undying;a=10} 
+    ];
+    oH=[ - damage{a="4"*<rcbuff.white>*<rcbuff.level>} ]
+    }
+ - sound{s=minecraft:entity.player.attack.sweep}
+
+RamuneFairy_chase:
+ Skills:
+ - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+    oP=[ - effect:particles{p=totem_of_undying;a=10} 
+    ];
+    oH=[ - damage{a="4"*<rcbuff.white>*<rcbuff.level>} ]
+    }
+ - sound{s=minecraft:entity.player.attack.sweep}
+
