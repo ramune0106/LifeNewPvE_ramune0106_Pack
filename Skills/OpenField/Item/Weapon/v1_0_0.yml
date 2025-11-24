@@ -207,7 +207,7 @@ TestSword_ramune0106_SwingF:
  Skills:
  - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
     oP=[ - effect:particles{p=enchant;a=10} 
-         - effect:particles{p=totem_of_undying;a=10} 
+         - effect:particles{p=red_dust;c=#00ff73;a=10} 
     ];
     oH=[ - damage{a="5"*<rcbuff.white>*<rcbuff.level>} 
          - skill{s=RamuneFairy_chase}
