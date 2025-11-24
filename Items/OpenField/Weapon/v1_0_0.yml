@@ -342,3 +342,4 @@ TestSword_ramune0106:
  Skills:
  - skill{s=TestSword_ramune0106_Swing} ~onSwing
  - skill{s=TestSword_ramune0106_Use} ~onUse
+
