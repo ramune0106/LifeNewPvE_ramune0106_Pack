@@ -340,6 +340,6 @@ TestSword_ramune0106:
  - "剣に宿る精霊を召喚し、加護を受ける"
  - "斬撃の性能が変化し、さらに一定時間追撃を与える"
  Skills:
- - skill{s=TestSword_ramune0106_Swing} ~onSwing
+ - skill{s=TestSword_ramune0106_SwingF} ~onSwing
  - skill{s=TestSword_ramune0106_Use} ~onUse
 
