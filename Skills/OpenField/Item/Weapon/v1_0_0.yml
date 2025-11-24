@@ -226,7 +226,7 @@ TestSword_ramune0106_Swing:
 
 RamuneFairy_chase:
  Skills:
- - slash{y=1.8;w=4;h=4;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
+ - slash{y=1.8;w=4;h=4;x=1;mpd=true;a=45;radius=2;roll=-30to30;fo=0.5;duration=5;
     oT=[ - effect:particles{p=red_dust;c=#81fff9;a=10} 
     ];
     oH=[ - damage{a="4"*<rcbuff.white>*<rcbuff.level>} ]
